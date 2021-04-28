@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.touchCount > 0)
         {
             MobileInput();
-            print("touch false");
+            //print("touch false");
         }
         else
         {
@@ -34,14 +34,14 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0f);
-            print("W false");
+            //print("W false");
         }
     }
 
     private void MobileInput()
     {
         rb.AddForce(Vector3.forward * moveForce * Time.deltaTime, ForceMode.Force);
-        print("W true");
+        //print("W true");
         //rb.velocity = Vector3.zero;
     }
 }

@@ -8,10 +8,12 @@ public class JumpMechanics : MonoBehaviour
 
 
     private Rigidbody rb;
+    [SerializeField]private Animator anim;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        anim = transform.GetChild(0).GetComponent<Animator>();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -20,6 +22,7 @@ public class JumpMechanics : MonoBehaviour
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0f);
+            anim.Play("Jump");
         }
     }
 }
