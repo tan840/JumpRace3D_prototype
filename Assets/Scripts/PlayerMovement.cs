@@ -19,12 +19,31 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.touchCount > 0)
         {
-            MobileInput();
-            //print("touch false");
-        }
-        else
-        {
-            //rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0f);
+             Touch _currentPrimaryTouch = Input.GetTouch(0);
+           // _currentTouchPosition = _currentPrimaryTouch.position;
+
+            //touch started
+            if (_currentPrimaryTouch.phase == TouchPhase.Began)
+            {
+
+            }
+                //TouchStart();
+
+            //touch going on
+            else if (_currentPrimaryTouch.phase == TouchPhase.Moved)
+                {
+
+                }
+                //TouchOnGoing();
+
+            //touch ended
+            else if (_currentPrimaryTouch.phase == TouchPhase.Ended)
+            //TouchEnded();
+            {
+
+            }
+
+            //Note: the other two phases are Stationary & Cancelled
         }
         if (Input.GetKey(KeyCode.W))
         {
