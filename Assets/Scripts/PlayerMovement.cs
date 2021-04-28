@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void MobileInput()
     {
-        rb.AddForce(Vector3.forward * moveForce * Time.deltaTime, ForceMode.Force);
+        rb.AddRelativeForce(Vector3.forward * moveForce * Time.deltaTime, ForceMode.Force);
         //print("W true");
         //rb.velocity = Vector3.zero;
     }
