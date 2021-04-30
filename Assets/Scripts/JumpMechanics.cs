@@ -18,11 +18,12 @@ public class JumpMechanics : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        
         if (collision.gameObject.CompareTag("Platform1"))
-        {
+        {            
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0f);
-            anim.Play("Jump");
+            anim.Play("Jump");           
         }
     }
 }

@@ -23,42 +23,46 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.touchCount > 0)
         {
-            _currentPrimaryTouch = Input.GetTouch(0);
-            _currentTouchPosition = _currentPrimaryTouch.position;
-            MobileInput();
-            //touch started
-            if (_currentPrimaryTouch.phase == TouchPhase.Began)
+            GameManager.instance.state = GameManager.GameState.Started;
+            if (GameManager.instance.state == GameManager.GameState.Started)
             {
-                TouchStart();
-            }
-            
-            //touch going on
-
-            else if (_currentPrimaryTouch.phase == TouchPhase.Moved)
+                GameManager.instance.HideTaptoPlayText();
+                _currentPrimaryTouch = Input.GetTouch(0);
+                _currentTouchPosition = _currentPrimaryTouch.position;
+                MobileInput();
+                //touch started
+                if (_currentPrimaryTouch.phase == TouchPhase.Began)
+                {
+                    TouchStart();
+                }
+                else if (_currentPrimaryTouch.phase == TouchPhase.Moved)
                 {
                     RotatePlayer();
                 }
                 //TouchOnGoing();
 
-            //touch ended
-            else if (_currentPrimaryTouch.phase == TouchPhase.Ended)
-            //TouchEnded();
-            {
+                //touch ended
+                else if (_currentPrimaryTouch.phase == TouchPhase.Ended)
+                //TouchEnded();
+                {
 
+                }
             }
-
-            //Note: the other two phases are Stationary & Cancelled
+            
         }
 #if UNITY_EDITOR
         if (Input.GetKey(KeyCode.W))
         {
-            MobileInput();
-            //print("W true");
+            GameManager.instance.state = GameManager.GameState.Started;
+            if (GameManager.instance.state == GameManager.GameState.Started)
+            {
+                GameManager.instance.HideTaptoPlayText();
+                MobileInput();
+            }        
         }
         else
         {
-            rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0f);
-            //print("W false");
+            rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0f);          
         }
 
 #endif
@@ -79,7 +83,6 @@ public class PlayerMovement : MonoBehaviour
     private void MobileInput()
     {
         rb.AddRelativeForce(Vector3.forward * moveForce * Time.deltaTime, ForceMode.Force);
-        //print("W true");
-        //rb.velocity = Vector3.zero;
+ 
     }
 }
