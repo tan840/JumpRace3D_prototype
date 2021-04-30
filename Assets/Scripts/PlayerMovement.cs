@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        rb.useGravity = false;
     }
 
     private void Update()
@@ -26,6 +27,8 @@ public class PlayerMovement : MonoBehaviour
             GameManager.instance.state = GameManager.GameState.Started;
             if (GameManager.instance.state == GameManager.GameState.Started)
             {
+                //print("Gravity");
+                rb.useGravity = true;
                 GameManager.instance.HideTaptoPlayText();
                 _currentPrimaryTouch = Input.GetTouch(0);
                 _currentTouchPosition = _currentPrimaryTouch.position;
@@ -56,6 +59,8 @@ public class PlayerMovement : MonoBehaviour
             GameManager.instance.state = GameManager.GameState.Started;
             if (GameManager.instance.state == GameManager.GameState.Started)
             {
+                //print("Gravity");
+                rb.useGravity = true;
                 GameManager.instance.HideTaptoPlayText();
                 MobileInput();
             }        

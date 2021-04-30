@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class DeathCollider : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject splash;
+    private void OnTriggerEnter(Collider other)
     {
-        
-    }
+        if (other.gameObject.CompareTag("Player"))
+        {
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        }
     }
 }
