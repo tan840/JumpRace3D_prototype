@@ -10,7 +10,7 @@ public class FinishLine : MonoBehaviour
     {
         GameManager.instance.state = GameManager.GameState.finish;
         anim = collision.gameObject.transform.GetChild(0).GetComponent<Animator>();
-        anim.Play("Idle");
+        anim.Play("BellyDance");
 
     }
 }
