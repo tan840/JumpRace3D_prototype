@@ -48,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
                 else if (_currentPrimaryTouch.phase == TouchPhase.Ended)
                 //TouchEnded();
                 {
-
+                    rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0f);
                 }
             }
             
@@ -75,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
 
     void RotatePlayer()
     {
-        float rotY = _currentPrimaryTouch.deltaPosition.x * -horizontalSpeed * 3 * Mathf.Deg2Rad;
+        float rotY = _currentPrimaryTouch.deltaPosition.x * horizontalSpeed * 3 * Mathf.Deg2Rad;
                 //target.Rotate(0, rotY, 0);
                 transform.DORotate(new Vector3(0, rotY, 0), 0.15f, RotateMode.LocalAxisAdd);
     }

@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Cinemachine;
 
 public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI text_perfect;
     public TextMeshProUGUI text_tapToPlay;
+    public CinemachineVirtualCamera vCam;
 
 
     public enum GameState { Menu, Started, Dead, finish }
@@ -32,10 +34,13 @@ public class GameManager : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PlayerDied()
     {
-        
+        if (state == GameState.Dead)
+        {
+            vCam.LookAt = null;
+            vCam.Follow = null;
+        }
     }
 
     public void TextDisplay(string t)

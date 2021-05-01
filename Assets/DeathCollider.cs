@@ -9,8 +9,13 @@ public class DeathCollider : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            GameObject p = PoolingManager.instance.UseObject(splash, other.transform.position, other.transform.rotation);
+            PoolingManager.instance.ReturnObject(p, 1f) ;
             GameManager.instance.state = GameManager.GameState.Dead;
-            PoolingManager.instance.UseObject(splash, other.transform.position, other.transform.rotation);
+            
+            GameManager.instance.PlayerDied();
+            
         }
     }
+   
 }
