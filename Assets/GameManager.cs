@@ -4,12 +4,16 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using Cinemachine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI text_perfect;
     public TextMeshProUGUI text_tapToPlay;
     public CinemachineVirtualCamera vCam;
+    public Transform player;
+    public Transform finishPoint;
+    public Slider slider;
 
 
     public enum GameState { Menu, Started, Dead, finish }
