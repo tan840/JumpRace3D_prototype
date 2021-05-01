@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.touchCount > 0)
         {
             GameManager.instance.state = GameManager.GameState.Started;
-            if (GameManager.instance.state == GameManager.GameState.Started)
+            if (GameManager.instance.state == GameManager.GameState.Started && GameManager.instance.state != GameManager.GameState.finish)
             {
                 //print("Gravity");
                 rb.useGravity = true;
@@ -57,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             GameManager.instance.state = GameManager.GameState.Started;
-            if (GameManager.instance.state == GameManager.GameState.Started)
+            if (GameManager.instance.state == GameManager.GameState.Started && GameManager.instance.state != GameManager.GameState.finish)
             {
                 //print("Gravity");
                 rb.useGravity = true;

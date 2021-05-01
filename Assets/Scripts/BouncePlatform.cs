@@ -32,6 +32,7 @@ public class BouncePlatform : MonoBehaviour
             {
                 collision.gameObject.transform.DORotate(new Vector3(0, transform.localRotation.y, 0), 0.5f);
             }
+            GameManager.instance.LevelCompleteBar();
         }
 
     }

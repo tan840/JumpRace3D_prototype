@@ -4,23 +4,26 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using Cinemachine;
-using UnityEngine.UI;
+//using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    private Vector3 playerInitialPos;
+    public Transform player;
     public TextMeshProUGUI text_perfect;
     public TextMeshProUGUI text_tapToPlay;
     public CinemachineVirtualCamera vCam;
-    public Transform player;
-    public Transform finishPoint;
+    // level progress
+    public Transform startPos;
+    public Transform finishPos;
     public Slider slider;
-
+    public float maxDistance;
 
     public enum GameState { Menu, Started, Dead, finish }
     public GameState state;
 
     public static GameManager instance;
-
+ 
     private void Awake()
     {
         if (instance == null)
@@ -31,11 +34,17 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+      
+        
     }
     void Start()
     {
-        state = GameState.Menu;
+        startPos = LevelManager.instance.leveldata[LevelManager.instance.currrentLevel - 1].startingPos;
+        finishPos = LevelManager.instance.leveldata[LevelManager.instance.currrentLevel - 1].finishPos;
 
+        maxDistance = getDistance();
+        state = GameState.Menu;
+        
     }
 
     public void PlayerDied()
@@ -60,5 +69,17 @@ public class GameManager : MonoBehaviour
     public void HideTaptoPlayText()
     {
         text_tapToPlay.text = "";
+    }
+
+    public void LevelCompleteBar()
+    {
+        if (player.position.z < finishPos.position.z)
+        {
+            slider.value = 1 - (getDistance() / maxDistance);
+        }
+    }
+    float getDistance()
+    {
+        return Vector3.Distance(startPos.position, finishPos.position);
     }
 }
