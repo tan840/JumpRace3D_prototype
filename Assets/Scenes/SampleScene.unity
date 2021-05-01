@@ -943,7 +943,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1972,12 +1972,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7b186cb49a0aa745ae7d9ac23350803, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1848955406}
   text_perfect: {fileID: 2289016}
   text_tapToPlay: {fileID: 1202217860}
   vCam: {fileID: 916662883}
-  player: {fileID: 0}
-  finishPoint: {fileID: 0}
-  slider: {fileID: 0}
+  startPos: {fileID: 0}
+  finishPos: {fileID: 0}
+  slider: {fileID: 306195427}
+  maxDistance: 0
   state: 0
 --- !u!1001 &643880494
 PrefabInstance:
@@ -2181,7 +2183,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 916662882}
-  m_LocalRotation: {x: 0.3437662, y: 0.000000016157744, z: -0.000000005914972, w: 0.93905526}
+  m_LocalRotation: {x: 0.3437662, y: -0.000000016157744, z: 0.000000005914972, w: 0.93905526}
   m_LocalPosition: {x: 1.522, y: 12.3275, z: -14.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2445,7 +2447,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 971616565}
-  m_LocalRotation: {x: 0.3437662, y: 0.000000016157744, z: -0.000000005914972, w: 0.93905526}
+  m_LocalRotation: {x: 0.3437662, y: -0.000000016157744, z: 0.000000005914972, w: 0.93905526}
   m_LocalPosition: {x: 1.522, y: 12.3275, z: -14.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -3107,17 +3109,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leveldata:
   - LevelName: Level1
-    startingpos: {fileID: 0}
+    startingPos: {fileID: 2121507720}
     finishPos: {fileID: 405465726}
     Level: {fileID: 1205983118}
   - LevelName: 
-    startingpos: {fileID: 0}
+    startingPos: {fileID: 0}
     finishPos: {fileID: 0}
     Level: {fileID: 0}
   - LevelName: 
-    startingpos: {fileID: 0}
+    startingPos: {fileID: 0}
     finishPos: {fileID: 0}
     Level: {fileID: 0}
+  currrentLevel: 1
 --- !u!4 &1742110558
 Transform:
   m_ObjectHideFlags: 0
@@ -3199,6 +3202,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 283678bc731b8734f95c4d19436331d5, type: 3}
+--- !u!4 &1848955406 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2606251871920479131, guid: c8689b11cb7a33a429267a1b00a43996, type: 3}
+  m_PrefabInstance: {fileID: 2606251871218731413}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1859093996
 PrefabInstance:
   m_ObjectHideFlags: 0

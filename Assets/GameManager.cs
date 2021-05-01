@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     public Transform finishPos;
     public Slider slider;
     public float maxDistance;
+    float distance;
 
     public enum GameState { Menu, Started, Dead, finish }
     public GameState state;
@@ -73,9 +74,10 @@ public class GameManager : MonoBehaviour
 
     public void LevelCompleteBar()
     {
+        distance = Vector3.Distance(player.position, finishPos.position);
         if (player.position.z < finishPos.position.z)
-        {
-            slider.value = 1 - (getDistance() / maxDistance);
+        {        
+            slider.value = 1-(distance / maxDistance);
         }
     }
     float getDistance()
