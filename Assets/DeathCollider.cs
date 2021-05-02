@@ -12,7 +12,7 @@ public class DeathCollider : MonoBehaviour
             GameObject p = PoolingManager.instance.UseObject(splash, other.transform.position, other.transform.rotation);
             PoolingManager.instance.ReturnObject(p, 1f) ;
             GameManager.instance.state = GameManager.GameState.Dead;
-            
+            MenuManager.instance.ShowLevelFailedPannel();
             GameManager.instance.PlayerDied();
             
         }

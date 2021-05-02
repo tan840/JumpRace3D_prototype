@@ -13,7 +13,8 @@ public class FinishLine : MonoBehaviour
         anim = collision.gameObject.transform.GetChild(0).GetComponent<Animator>();
         anim.Play("BellyDance");
         LevelManager.instance.currrentLevel++;
-
-
+        MenuManager.instance.ShowLevelCompletePannel();
     }
+
+ 
 }

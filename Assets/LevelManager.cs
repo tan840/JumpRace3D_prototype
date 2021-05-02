@@ -20,6 +20,34 @@ public class LevelManager : MonoBehaviour
         }
         DontDestroyOnLoad(gameObject);
     }
+    private void Start()
+    {
+        currrentLevel = PlayerPrefs.GetInt("Level");
+    }
+
+    public void LoadNextLevel()
+    {
+        if (GameManager.instance.state == GameManager.GameState.finish)
+        {
+            currrentLevel = PlayerPrefs.GetInt("Level");
+            leveldata[currrentLevel - 1].Level.SetActive(false);
+            leveldata[currrentLevel].Level.SetActive(true);
+        }
+    }
+    public void Levelup()
+    {
+        currrentLevel++;
+        if (currrentLevel > leveldata.Length)
+        {
+            currrentLevel = leveldata.Length + 1;
+            PlayerPrefs.SetInt("Level", currrentLevel);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("Level", currrentLevel);
+        }
+    }
+
 }
 
 [System.Serializable]

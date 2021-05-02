@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
         state = GameState.Menu;
         
     }
-
+   
     public void PlayerDied()
     {
         if (state == GameState.Dead)

@@ -13,7 +13,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody rb;
     private Touch _currentPrimaryTouch;
     Vector2 _currentTouchPosition;
-    float _firstTouchTime;
+    //float _firstTouchTime;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -27,26 +28,16 @@ public class PlayerMovement : MonoBehaviour
             GameManager.instance.state = GameManager.GameState.Started;
             if (GameManager.instance.state == GameManager.GameState.Started && GameManager.instance.state != GameManager.GameState.finish)
             {
-                //print("Gravity");
                 rb.useGravity = true;
-                GameManager.instance.HideTaptoPlayText();
+                MenuManager.instance.HideStartPannel();
                 _currentPrimaryTouch = Input.GetTouch(0);
                 _currentTouchPosition = _currentPrimaryTouch.position;
-                MobileInput();
-                //touch started
-                if (_currentPrimaryTouch.phase == TouchPhase.Began)
-                {
-                    TouchStart();
-                }
-                else if (_currentPrimaryTouch.phase == TouchPhase.Moved)
+                MobileInput();            
+                if (_currentPrimaryTouch.phase == TouchPhase.Moved)
                 {
                     RotatePlayer();
                 }
-                //TouchOnGoing();
-
-                //touch ended
                 else if (_currentPrimaryTouch.phase == TouchPhase.Ended)
-                //TouchEnded();
                 {
                     rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0f);
                 }
@@ -59,9 +50,8 @@ public class PlayerMovement : MonoBehaviour
             GameManager.instance.state = GameManager.GameState.Started;
             if (GameManager.instance.state == GameManager.GameState.Started && GameManager.instance.state != GameManager.GameState.finish)
             {
-                //print("Gravity");
                 rb.useGravity = true;
-                GameManager.instance.HideTaptoPlayText();
+                MenuManager.instance.HideStartPannel();
                 MobileInput();
             }        
         }
@@ -69,7 +59,6 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0f);          
         }
-
 #endif
     }
 
@@ -80,10 +69,6 @@ public class PlayerMovement : MonoBehaviour
                 transform.DORotate(new Vector3(0, rotY, 0), 0.15f, RotateMode.LocalAxisAdd);
     }
 
-    void TouchStart()
-    {
-        _firstTouchTime = Time.time;
-    }
 
     private void MobileInput()
     {
