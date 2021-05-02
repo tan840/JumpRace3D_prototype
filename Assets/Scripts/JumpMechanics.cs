@@ -5,6 +5,7 @@ using UnityEngine;
 public class JumpMechanics : MonoBehaviour
 {
     public float jumpForce = 100;
+    public float highJumpForce = 200;
 
 
     private Rigidbody rb;
@@ -24,6 +25,12 @@ public class JumpMechanics : MonoBehaviour
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0f);
             anim.Play("Jump");           
+        }
+        if (collision.gameObject.CompareTag("Platform2"))
+        {
+            rb.AddForce(Vector3.up * highJumpForce, ForceMode.Impulse);
+            rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0f);
+            anim.Play("Jump");
         }
     }
 }

@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     private Vector3 playerInitialPos;
     public Transform player;
     public TextMeshProUGUI text_perfect;
-    public TextMeshProUGUI text_tapToPlay;
+    public GameObject pannel_tapToPlay;
     public CinemachineVirtualCamera vCam;
     // level progress
     public Transform startPos;
@@ -69,7 +69,7 @@ public class GameManager : MonoBehaviour
     }
     public void HideTaptoPlayText()
     {
-        text_tapToPlay.text = "";
+        pannel_tapToPlay.SetActive(false);
     }
 
     public void LevelCompleteBar()
