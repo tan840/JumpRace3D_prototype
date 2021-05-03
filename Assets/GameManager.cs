@@ -25,7 +25,9 @@ public class GameManager : MonoBehaviour
     public GameState state;
 
     public static GameManager instance;
- 
+
+
+    LevelManager levelManager;
     private void Awake()
     {
         if (instance == null)
@@ -41,8 +43,9 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
-        startPos = LevelManager.instance.leveldata[LevelManager.instance.currrentLevel - 1].startingPos;
-        finishPos = LevelManager.instance.leveldata[LevelManager.instance.currrentLevel - 1].finishPos;
+        levelManager = LevelManager.instance;
+        startPos = levelManager.leveldata[levelManager.currrentLevel - 1].startingPos;
+        finishPos = levelManager.leveldata[levelManager.currrentLevel - 1].finishPos;
 
         maxDistance = getDistance();
         state = GameState.Menu;

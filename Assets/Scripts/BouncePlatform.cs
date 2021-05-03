@@ -9,7 +9,8 @@ public class BouncePlatform : MonoBehaviour
     private Animator anim;
     private ParticleSystem _bounce;
     public GameObject particle_Bounce;
-    
+    PoolingManager poolingManager;
+    GameManager gameManager;
 
 
 
@@ -19,26 +20,32 @@ public class BouncePlatform : MonoBehaviour
         anim = GetComponent<Animator>();
         
     }
+
+    private void Start()
+    {
+        poolingManager = PoolingManager.instance;
+        gameManager = GameManager.instance;
+    }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
             count++;
             anim.SetTrigger("bounce");
-            GameObject p = PoolingManager.instance.UseObject(particle_Bounce, transform.position, transform.rotation);
+            GameObject p = poolingManager.UseObject(particle_Bounce, transform.position, transform.rotation);
             //_bounce = p.transform.GetChild(0).GetComponent<ParticleSystem>();
             ParticleReturn(p);
             if (count ==1)
             {
                 collision.gameObject.transform.DORotate(new Vector3(0, transform.localRotation.y, 0), 0.5f);
             }
-            GameManager.instance.LevelCompleteBar();
+            gameManager.LevelCompleteBar();
         }
 
     }
     void ParticleReturn(GameObject p)
     {
-        PoolingManager.instance.ReturnObject(p, 2f);
+        poolingManager.ReturnObject(p, 2f);
     }
     
 

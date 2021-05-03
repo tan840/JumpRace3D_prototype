@@ -5,17 +5,25 @@ using DG.Tweening;
 
 public class FinishLine : MonoBehaviour
 {
+    GameManager gameManager;
+    LevelManager levelManager;
+    MenuManager menuManager;
     [SerializeField] Animator anim;
-    // Start is called before the first frame update
+    private void Start()
+    {
+        gameManager = GameManager.instance;
+        levelManager = LevelManager.instance;
+        menuManager = MenuManager.instance;
+    }
     private void OnCollisionEnter(Collision collision)
     {
-        LevelManager.instance.SetCurrentLevel();
-        GameManager.instance.state = GameManager.GameState.finish;
-        GameManager.instance.slider.DOValue(1f,0.5f);
+
+        gameManager.state = GameManager.GameState.finish;
+        gameManager.slider.DOValue(1f,0.5f);
         anim = collision.gameObject.transform.GetChild(0).GetComponent<Animator>();
         anim.Play("BellyDance");
-        LevelManager.instance.currrentLevel++;
-        MenuManager.instance.ShowLevelCompletePannel();
+        levelManager.SetCurrentLevel();
+        menuManager.ShowLevelCompletePannel();
     }
 
  

@@ -8,6 +8,8 @@ public class LevelManager : MonoBehaviour
     public int currrentLevel =1;
 
     public static LevelManager instance;
+
+    GameManager gameManager;
     private void Awake()
     {
         if (instance == null)
@@ -22,6 +24,8 @@ public class LevelManager : MonoBehaviour
     }
     private void Start()
     {
+        gameManager = GameManager.instance;
+        Debug.Log(gameManager);
         currrentLevel = PlayerPrefs.GetInt("Level");
     }
     public void SetCurrentLevel()
@@ -31,14 +35,13 @@ public class LevelManager : MonoBehaviour
     }
     public void LoadNextLevel()
     {
-        if (GameManager.instance.state == GameManager.GameState.finish)
-        {
-            currrentLevel = PlayerPrefs.GetInt("Level");
-            print(currrentLevel);
-            leveldata[currrentLevel - 1].Level.SetActive(false);
-            leveldata[currrentLevel].Level.SetActive(true);
-            print(currrentLevel);
-        }
+        
+        currrentLevel = PlayerPrefs.GetInt("Level");
+        print(currrentLevel);
+        leveldata[currrentLevel - 1].Level.SetActive(false);
+        leveldata[currrentLevel].Level.SetActive(true);
+        print(currrentLevel);
+        
     }
     public void Levelup()
     {

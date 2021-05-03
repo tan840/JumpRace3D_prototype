@@ -9,6 +9,8 @@ public class MenuManager : MonoBehaviour
     public GameObject levelCompletePannel;
 
     public static MenuManager instance;
+
+    LevelManager levelManager;
     private void Awake()
     {
         if (instance == null)
@@ -20,6 +22,11 @@ public class MenuManager : MonoBehaviour
             Destroy(gameObject);
         }
         ShowStartPannel();
+    }
+
+    private void Start()
+    {
+        levelManager = LevelManager.instance;
     }
     #region pannel Show and Hide Functions
     public void ShowStartPannel()
@@ -36,7 +43,7 @@ public class MenuManager : MonoBehaviour
     }
     public void Btn_LevelComplete()
     {
-        LevelManager.instance.LoadNextLevel();
+        levelManager.LoadNextLevel();
         levelCompletePannel.SetActive(false);
     }
     public void ShowLevelFailedPannel()

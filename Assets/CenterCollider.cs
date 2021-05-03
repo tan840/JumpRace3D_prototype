@@ -5,12 +5,17 @@ using UnityEngine;
 public class CenterCollider : MonoBehaviour
 {
     int counter = 0;
+    GameManager gameManager;
+    private void Start()
+    {
+        gameManager = GameManager.instance;
+    }
     private void OnTriggerEnter(Collider other)
     {
         counter++;
         if(counter ==1)
         {
-            GameManager.instance.TextDisplay("Perfect");
+            gameManager.TextDisplay("Perfect");
         }
         
     }

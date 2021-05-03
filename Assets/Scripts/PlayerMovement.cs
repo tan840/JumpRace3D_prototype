@@ -13,23 +13,29 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody rb;
     private Touch _currentPrimaryTouch;
     Vector2 _currentTouchPosition;
-    //float _firstTouchTime;
+    GameManager gameManager;
+    MenuManager menuManager;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
         rb.useGravity = false;
     }
+    private void Start()
+    {
+        gameManager = GameManager.instance;
+        menuManager = MenuManager.instance;
+    }
 
     private void Update()
     {
         if (Input.touchCount > 0)
         {
-            GameManager.instance.state = GameManager.GameState.Started;
-            if (GameManager.instance.state == GameManager.GameState.Started && GameManager.instance.state != GameManager.GameState.finish)
+            gameManager.state = GameManager.GameState.Started;
+            if (gameManager.state == GameManager.GameState.Started && gameManager.state != GameManager.GameState.finish)
             {
                 rb.useGravity = true;
-                MenuManager.instance.HideStartPannel();
+                menuManager.HideStartPannel();
                 _currentPrimaryTouch = Input.GetTouch(0);
                 _currentTouchPosition = _currentPrimaryTouch.position;
                 MobileInput();            
@@ -47,11 +53,11 @@ public class PlayerMovement : MonoBehaviour
 #if UNITY_EDITOR
         if (Input.GetKey(KeyCode.W))
         {
-            GameManager.instance.state = GameManager.GameState.Started;
-            if (GameManager.instance.state == GameManager.GameState.Started && GameManager.instance.state != GameManager.GameState.finish)
+            gameManager.state = GameManager.GameState.Started;
+            if (gameManager.state == GameManager.GameState.Started && gameManager.state != GameManager.GameState.finish)
             {
                 rb.useGravity = true;
-                MenuManager.instance.HideStartPannel();
+                menuManager.HideStartPannel();
                 MobileInput();
             }        
         }
