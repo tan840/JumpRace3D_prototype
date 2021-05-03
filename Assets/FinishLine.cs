@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class FinishLine : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class FinishLine : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         GameManager.instance.state = GameManager.GameState.finish;
-        GameManager.instance.slider.value = 1f;
+        GameManager.instance.slider.DOValue(1f,0.5f);
         anim = collision.gameObject.transform.GetChild(0).GetComponent<Animator>();
         anim.Play("BellyDance");
         LevelManager.instance.currrentLevel++;

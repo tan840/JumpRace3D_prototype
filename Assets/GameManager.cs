@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using Cinemachine;
+using DG.Tweening;
 //using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -77,7 +78,7 @@ public class GameManager : MonoBehaviour
         distance = Vector3.Distance(player.position, finishPos.position);
         if (player.position.z < finishPos.position.z)
         {        
-            slider.value = 1-(distance / maxDistance);
+            slider.DOValue(1-(distance / maxDistance),0.5f);
         }
     }
     float getDistance()
