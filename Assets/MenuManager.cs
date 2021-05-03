@@ -36,6 +36,7 @@ public class MenuManager : MonoBehaviour
     }
     public void Btn_LevelComplete()
     {
+        LevelManager.instance.LoadNextLevel();
         levelCompletePannel.SetActive(false);
     }
     public void ShowLevelFailedPannel()

@@ -24,14 +24,20 @@ public class LevelManager : MonoBehaviour
     {
         currrentLevel = PlayerPrefs.GetInt("Level");
     }
-
+    public void SetCurrentLevel()
+    {
+        currrentLevel++;
+        PlayerPrefs.SetInt("Level", currrentLevel);
+    }
     public void LoadNextLevel()
     {
         if (GameManager.instance.state == GameManager.GameState.finish)
         {
             currrentLevel = PlayerPrefs.GetInt("Level");
+            print(currrentLevel);
             leveldata[currrentLevel - 1].Level.SetActive(false);
             leveldata[currrentLevel].Level.SetActive(true);
+            print(currrentLevel);
         }
     }
     public void Levelup()
