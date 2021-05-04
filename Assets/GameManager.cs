@@ -47,8 +47,8 @@ public class GameManager : MonoBehaviour
     {
         levelManager = LevelManager.instance;
         menumanager = MenuManager.instance;
-        startPos = levelManager.leveldata[levelManager.currrentLevel - 1].startingPos;
-        finishPos = levelManager.leveldata[levelManager.currrentLevel - 1].finishPos;
+        startPos = levelManager.leveldata[levelManager.CurrentLevel].startingPos;
+        finishPos = levelManager.leveldata[levelManager.CurrentLevel].finishPos;
 
         maxDistance = getDistance();
         state = GameState.Menu;
@@ -58,14 +58,15 @@ public class GameManager : MonoBehaviour
 
     public void ResetLevel()
     {
+        rb.velocity = Vector3.zero;
+        slider.value = 0f;
         menumanager.startPannel.SetActive(true);
         player.position = startPos.position;
-        player.rotation = startPos.localRotation;
+        player.DOLocalRotate(new Vector3(0f,startPos.localRotation.y * Mathf.Rad2Deg,0f), 0.5f);
         player.transform.GetChild(0).transform.DOLocalRotate(new Vector3(0, 0, 0), 1f);
-        //rb.constraints = RigidbodyConstraints.FreezePositionX;
         rb.useGravity = false;
         anim.Play("Idle");
-        slider.value = 0f;
+        
         if (vCam.LookAt == null && vCam.Follow == null)
         {
             vCam.LookAt = player;

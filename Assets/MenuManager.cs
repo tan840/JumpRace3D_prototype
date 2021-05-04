@@ -42,6 +42,7 @@ public class MenuManager : MonoBehaviour
     public void ShowLevelCompletePannel()
     {
         levelCompletePannel.SetActive(true);
+        levelManager.Levelup();
     }
     public void Btn_LevelComplete()
     {

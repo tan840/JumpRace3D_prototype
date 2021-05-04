@@ -5,7 +5,7 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour
 {
     public LevelData[] leveldata;
-    public int currrentLevel =1;
+    [SerializeField]private int currrentLevel = 0;
 
     public static LevelManager instance;
 
@@ -24,40 +24,43 @@ public class LevelManager : MonoBehaviour
     }
     private void Start()
     {
+        //print(currrentLevel);
         gameManager = GameManager.instance;
-        Debug.Log(gameManager);
+        //Debug.Log(gameManager);
         currrentLevel = PlayerPrefs.GetInt("Level");
+        //print(currrentLevel);
     }
     public void SetCurrentLevel()
     {
-        currrentLevel++;
+        if (currrentLevel> leveldata.Length)
+        {
+            currrentLevel = leveldata.Length;
+        }
+        else
+        {
+            currrentLevel++;
+        }
+
         PlayerPrefs.SetInt("Level", currrentLevel);
+    }
+    public int CurrentLevel
+    {
+        get { return currrentLevel; }
+      
     }
     public void LoadNextLevel()
     {
-        
-        currrentLevel = PlayerPrefs.GetInt("Level");
-        print(currrentLevel);
+              
         leveldata[currrentLevel - 1].Level.SetActive(false);
         leveldata[currrentLevel].Level.SetActive(true);
-        print(currrentLevel);
+        //print(currrentLevel);
         gameManager.startPos = leveldata[currrentLevel].startingPos;
         gameManager.ResetLevel();
         
     }
     public void Levelup()
     {
-        currrentLevel++;
-        if (currrentLevel > leveldata.Length)
-        {
-            currrentLevel = leveldata.Length + 1;
-            PlayerPrefs.SetInt("Level", currrentLevel);
-        }
-        else
-        {
-            PlayerPrefs.SetInt("Level", currrentLevel);
-        }
-        
+        SetCurrentLevel();
     }
 
 }
