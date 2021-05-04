@@ -11,6 +11,7 @@ public class MenuManager : MonoBehaviour
     public static MenuManager instance;
 
     LevelManager levelManager;
+    GameManager gameManager;
     private void Awake()
     {
         if (instance == null)
@@ -27,6 +28,7 @@ public class MenuManager : MonoBehaviour
     private void Start()
     {
         levelManager = LevelManager.instance;
+        gameManager = GameManager.instance;
     }
     #region pannel Show and Hide Functions
     public void ShowStartPannel()
@@ -53,6 +55,8 @@ public class MenuManager : MonoBehaviour
     public void Btn_LevelFailed()
     {
         levelFailedPannel.SetActive(false);
+        gameManager.ResetLevel();
+        
     }
     #endregion
 }

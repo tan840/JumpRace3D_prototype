@@ -26,8 +26,10 @@ public class GameManager : MonoBehaviour
 
     public static GameManager instance;
 
-
+    MenuManager menumanager;
     LevelManager levelManager;
+    Rigidbody rb;
+    Animator anim;
     private void Awake()
     {
         if (instance == null)
@@ -44,11 +46,31 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         levelManager = LevelManager.instance;
+        menumanager = MenuManager.instance;
         startPos = levelManager.leveldata[levelManager.currrentLevel - 1].startingPos;
         finishPos = levelManager.leveldata[levelManager.currrentLevel - 1].finishPos;
 
         maxDistance = getDistance();
         state = GameState.Menu;
+        rb = player.transform.GetComponent<Rigidbody>();
+        anim = player.transform.GetChild(0).GetComponent<Animator>();
+    }
+
+    public void ResetLevel()
+    {
+        menumanager.startPannel.SetActive(true);
+        player.position = startPos.position;
+        player.rotation = startPos.localRotation;
+        player.transform.GetChild(0).transform.DOLocalRotate(new Vector3(0, 0, 0), 1f);
+        //rb.constraints = RigidbodyConstraints.FreezePositionX;
+        rb.useGravity = false;
+        anim.Play("Idle");
+        slider.value = 0f;
+        if (vCam.LookAt == null && vCam.Follow == null)
+        {
+            vCam.LookAt = player;
+            vCam.Follow = player;
+        }
         
     }
    

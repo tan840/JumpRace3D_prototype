@@ -34,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
             gameManager.state = GameManager.GameState.Started;
             if (gameManager.state == GameManager.GameState.Started && gameManager.state != GameManager.GameState.finish)
             {
+                //rb.constraints = RigidbodyConstraints.None;
                 rb.useGravity = true;
                 menuManager.HideStartPannel();
                 _currentPrimaryTouch = Input.GetTouch(0);
@@ -45,7 +46,7 @@ public class PlayerMovement : MonoBehaviour
                 }
                 else if (_currentPrimaryTouch.phase == TouchPhase.Ended)
                 {
-                    rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0f);
+                    rb.velocity = new Vector3(0f, rb.velocity.y, 0f);
                 }
             }
             
@@ -56,6 +57,8 @@ public class PlayerMovement : MonoBehaviour
             gameManager.state = GameManager.GameState.Started;
             if (gameManager.state == GameManager.GameState.Started && gameManager.state != GameManager.GameState.finish)
             {
+                //rb.isKinematic = false;
+                
                 rb.useGravity = true;
                 menuManager.HideStartPannel();
                 MobileInput();
@@ -63,7 +66,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0f);          
+            rb.velocity = new Vector3(0f, rb.velocity.y, 0f);          
         }
 #endif
     }

@@ -41,6 +41,8 @@ public class LevelManager : MonoBehaviour
         leveldata[currrentLevel - 1].Level.SetActive(false);
         leveldata[currrentLevel].Level.SetActive(true);
         print(currrentLevel);
+        gameManager.startPos = leveldata[currrentLevel].startingPos;
+        gameManager.ResetLevel();
         
     }
     public void Levelup()
@@ -55,6 +57,7 @@ public class LevelManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("Level", currrentLevel);
         }
+        
     }
 
 }
