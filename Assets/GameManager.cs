@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     public GameState state;
 
     public static GameManager instance;
+    [SerializeField] ParticleSystem[] playerParticle;
 
     MenuManager menumanager;
     LevelManager levelManager;
@@ -90,6 +91,22 @@ public class GameManager : MonoBehaviour
 
         text_perfect.text = t;
         Invoke("HideText", 1.5f);
+        foreach (ParticleSystem item in playerParticle)
+        {
+            item.Play();
+
+        }
+        Time.timeScale = 0.7f;
+        Invoke("ParticleDeactive", 1);
+        
+    }
+    void ParticleDeactive()
+    {
+        foreach (ParticleSystem item in playerParticle)
+        {
+            item.Stop();
+            Time.timeScale = 1;
+        }
     }
     void HideText()
     {
