@@ -32,7 +32,7 @@ public class JumpMechanics : MonoBehaviour
             anim.Play("Jump");
             targetRotation.y = collision.gameObject.GetComponent<Transform>().localRotation.y ;
             //print(collision.gameObject.GetComponent<Transform>().localRotation);
-            transform.DOLocalRotate(new Vector3(0f, targetRotation.y * Mathf.Rad2Deg *1.5f, 0f), 0.5f);
+            transform.DORotate(new Vector3(0f, targetRotation.y * Mathf.Rad2Deg *1.5f, 0f), 0.5f);
             
         }
         if (collision.gameObject.CompareTag("Platform2"))

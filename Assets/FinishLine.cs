@@ -22,7 +22,7 @@ public class FinishLine : MonoBehaviour
         gameManager.slider.DOValue(1f,0.5f);
         anim = collision.gameObject.transform.GetChild(0).GetComponent<Animator>();
         anim.Play("BellyDance");
-        levelManager.SetCurrentLevel();
+        //levelManager.SetCurrentLevel();
         menuManager.ShowLevelCompletePannel();
     }
 

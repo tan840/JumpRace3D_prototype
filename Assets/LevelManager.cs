@@ -27,17 +27,19 @@ public class LevelManager : MonoBehaviour
         //print(currrentLevel);
         gameManager = GameManager.instance;
         //Debug.Log(gameManager);
-        currrentLevel = PlayerPrefs.GetInt("Level");
+        currrentLevel = 0;
         //print(currrentLevel);
     }
     public void SetCurrentLevel()
     {
-        if (currrentLevel> leveldata.Length)
+        if (currrentLevel>=leveldata.Length)
         {
             currrentLevel = leveldata.Length;
+            print("greater");
         }
-        else
+        else if(currrentLevel < leveldata.Length)
         {
+            print("less");
             currrentLevel++;
         }
 
@@ -49,8 +51,7 @@ public class LevelManager : MonoBehaviour
       
     }
     public void LoadNextLevel()
-    {
-              
+    {       
         leveldata[currrentLevel - 1].Level.SetActive(false);
         leveldata[currrentLevel].Level.SetActive(true);
         //print(currrentLevel);
