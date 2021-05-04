@@ -62,7 +62,7 @@ public class GameManager : MonoBehaviour
         slider.value = 0f;
         menumanager.startPannel.SetActive(true);
         player.position = startPos.position;
-        player.DORotate(new Vector3(0f,startPos.localRotation.y * Mathf.Rad2Deg,0f), 0.5f);
+        player.DORotate(new Vector3(0f,startPos.localRotation.eulerAngles.y,0f), 0.5f);       
         player.transform.GetChild(0).transform.DOLocalRotate(new Vector3(0, 0, 0), 1f);
         
         rb.useGravity = false;

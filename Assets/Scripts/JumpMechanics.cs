@@ -30,9 +30,10 @@ public class JumpMechanics : MonoBehaviour
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, 0f);
             anim.Play("Jump");
-            targetRotation.y = collision.gameObject.GetComponent<Transform>().localRotation.y ;
+            targetRotation.y = collision.gameObject.GetComponent<Transform>().eulerAngles.y ;
             //print(collision.gameObject.GetComponent<Transform>().localRotation);
-            transform.DORotate(new Vector3(0f, targetRotation.y * Mathf.Rad2Deg *1.5f, 0f), 0.5f);
+            transform.DORotate(new Vector3(0f, targetRotation.y, 0f), 0.5f);
+            print("onBounce" + targetRotation.y * Mathf.Rad2Deg * 1.5f);
             
         }
         if (collision.gameObject.CompareTag("Platform2"))
