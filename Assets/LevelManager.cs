@@ -35,11 +35,11 @@ public class LevelManager : MonoBehaviour
         if (currrentLevel>=leveldata.Length)
         {
             currrentLevel = leveldata.Length;
-            print("greater");
+            //print("greater");
         }
         else if(currrentLevel < leveldata.Length)
         {
-            print("less");
+            //print("less");
             currrentLevel++;
         }
 
