@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-/// <summary>
-/// Is responsible for managing the player movement and rotation
-/// </summary>
 public class PlayerMovement : MonoBehaviour
 {
     public float moveForce = 5;

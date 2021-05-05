@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-/// <summary>
-/// The Platform that the player bounces
-/// </summary>
 public class BouncePlatform : MonoBehaviour
 {
  

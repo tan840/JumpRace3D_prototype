@@ -2,10 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-/// <summary>
-/// This handles the Level transitions
-/// </summary>
 public class LevelManager : MonoBehaviour
 {
     public LevelData[] leveldata;
