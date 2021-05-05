@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
+
+/// <summary>
+/// the finishline
+/// </summary>
 public class FinishLine : MonoBehaviour
 {
     GameManager gameManager;
