@@ -7,6 +7,9 @@ using Cinemachine;
 using DG.Tweening;
 //using UnityEngine.UI;
 
+/// <summary>
+/// Handles the Game progression
+/// </summary>
 public class GameManager : MonoBehaviour
 {
     private Vector3 playerInitialPos;
@@ -96,8 +99,7 @@ public class GameManager : MonoBehaviour
             item.Play();
 
         }
-        Time.timeScale = 0.7f;
-        Invoke("ParticleDeactive", 1);
+        Invoke("ParticleDeactive", 0.75f);
         
     }
     void ParticleDeactive()
@@ -105,7 +107,6 @@ public class GameManager : MonoBehaviour
         foreach (ParticleSystem item in playerParticle)
         {
             item.Stop();
-            Time.timeScale = 1;
         }
     }
     void HideText()

@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/// <summary>
+/// The bottom plane
+/// </summary>
 public class DeathCollider : MonoBehaviour
 {
     public GameObject splash;

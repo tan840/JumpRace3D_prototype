@@ -2,6 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
+/// <summary>
+/// This controls the menu transitions
+/// </summary>
 public class MenuManager : MonoBehaviour
 {
     public GameObject startPannel;
