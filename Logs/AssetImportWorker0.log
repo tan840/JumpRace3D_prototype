@@ -15,11 +15,11 @@ E:/Unity Project files/JumpRace3D_prototype
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57984
+55070
 Successfully changed project path to: E:/Unity Project files/JumpRace3D_prototype
 E:/Unity Project files/JumpRace3D_prototype
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 109.77 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 82.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path E:/Softwares/Unity/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,145 +35,158 @@ Initialize mono
 Mono path[0] = 'E:/Softwares/Unity/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Softwares/Unity/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Softwares/Unity/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Softwares/Unity/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001304 seconds.
+Registered in 0.001133 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 62.16 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 67.85 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.825 seconds
+- Completed reload, in  1.886 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001990 seconds.
+Registered in 0.003834 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 64.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 63.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.274 seconds
+- Completed reload, in  1.266 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
-Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2629 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.6 MB.
-System memory in use after: 196.0 MB.
+System memory in use before: 197.8 MB.
+System memory in use after: 196.2 MB.
 
 Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 3057.
-Total: 3.616300 ms (FindLiveObjects: 0.306600 ms CreateObjectMapping: 0.146900 ms MarkObjects: 2.066900 ms  DeleteObjects: 1.094400 ms)
+Total: 3.857100 ms (FindLiveObjects: 0.448300 ms CreateObjectMapping: 0.161800 ms MarkObjects: 2.175800 ms  DeleteObjects: 1.069800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Animator/Player.controller
-  artifactKey: Guid(9403188c8c6c2994d9a813d671300883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animator/Player.controller using Guid(9403188c8c6c2994d9a813d671300883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3b795c9e92b6f8b90bf5eea06c67f2') in 0.339055 seconds
-  Import took 0.425636 seconds .
+  path: Assets/Animations/CharacterFBX@Jumping 1.fbx
+  artifactKey: Guid(24c2c43ea0849e34095fadbd1b1cde21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/CharacterFBX@Jumping 1.fbx using Guid(24c2c43ea0849e34095fadbd1b1cde21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f40a00996826a2edb822b1fcd6e5ae') in 2.604223 seconds
+  Import took 2.657965 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 75.773467 seconds.
+  Time since last request: 0.028397 seconds.
+  path: Assets/Animations/CharacterFBX@Running Forward Flip.fbx
+  artifactKey: Guid(466497038d6ac8042a197616ad2657b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/CharacterFBX@Running Forward Flip.fbx using Guid(466497038d6ac8042a197616ad2657b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c75f8d04b743355aab8fd435e4207a6') in 0.085756 seconds
+  Import took 0.119597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
   path: Assets/Animations/CharacterFBX@Belly Dance.fbx
   artifactKey: Guid(320504c56e1f5bd4ea6b6de04265b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/CharacterFBX@Belly Dance.fbx using Guid(320504c56e1f5bd4ea6b6de04265b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29af33d1c285dcc0b847508c630335bd') in 1.086074 seconds
-  Import took 1.123676 seconds .
+Start importing Assets/Animations/CharacterFBX@Belly Dance.fbx using Guid(320504c56e1f5bd4ea6b6de04265b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606be135f18efbe20deb41294cd8d4ca') in 0.076129 seconds
+  Import took 0.108719 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.543191 seconds.
-  path: Assets/Animations/CharacterFBX@Belly Dance.fbx
-  artifactKey: Guid(320504c56e1f5bd4ea6b6de04265b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/CharacterFBX@Belly Dance.fbx using Guid(320504c56e1f5bd4ea6b6de04265b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0eada0bd7a94f331cbf32f8c0616ee') in 0.110123 seconds
-  Import took 0.146412 seconds .
+  Time since last request: 0.000276 seconds.
+  path: Assets/Animations/CharacterFBX@Falling Idle.fbx
+  artifactKey: Guid(23283f236e460e947928a774b54ef8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/CharacterFBX@Falling Idle.fbx using Guid(23283f236e460e947928a774b54ef8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26367d6933b38cd438f59d7bc97f712f') in 0.094910 seconds
+  Import took 0.114174 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.1 MB.
+System memory in use after: 158.5 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3133.
+Total: 4.920100 ms (FindLiveObjects: 0.308200 ms CreateObjectMapping: 0.146900 ms MarkObjects: 3.239300 ms  DeleteObjects: 1.223000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.794884 seconds.
-  path: Assets/MenuManager.cs
-  artifactKey: Guid(b5eea0009d5189f4289358dc40700607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MenuManager.cs using Guid(b5eea0009d5189f4289358dc40700607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7f962fb9498af48c8757008477cae4') in 0.056768 seconds
-  Import took 0.085615 seconds .
+  Time since last request: 3.497277 seconds.
+  path: Assets/Materials/Line.mat
+  artifactKey: Guid(449d236b3ae17264e8e9dcb433e2b45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Line.mat using Guid(449d236b3ae17264e8e9dcb433e2b45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f812c9b69d6554a483673c29ecb4968b') in 0.114317 seconds
+  Import took 0.147338 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002059 seconds.
+Registered in 0.001898 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.320 seconds
+- Completed reload, in  1.289 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.2 MB.
-System memory in use after: 206.6 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3109.
-Total: 3.900100 ms (FindLiveObjects: 0.305000 ms CreateObjectMapping: 0.143700 ms MarkObjects: 2.327800 ms  DeleteObjects: 1.120900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 766.437421 seconds.
-  path: Assets/Materials/LineRenderer.mat
-  artifactKey: Guid(d322690ecc2088b41b5afccb1cfcdbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LineRenderer.mat using Guid(d322690ecc2088b41b5afccb1cfcdbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38c395d241b8679ea80512a2b67b025') in 0.545882 seconds
-  Import took 0.587261 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002021 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.307 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 208.5 MB.
-System memory in use after: 206.9 MB.
+System memory in use after: 207.0 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3181.
-Total: 4.731500 ms (FindLiveObjects: 0.379400 ms CreateObjectMapping: 0.174700 ms MarkObjects: 2.745400 ms  DeleteObjects: 1.430300 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3142.
+Total: 11.158000 ms (FindLiveObjects: 0.849500 ms CreateObjectMapping: 0.295100 ms MarkObjects: 5.633600 ms  DeleteObjects: 4.359400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002825 seconds.
+Registered in 0.003024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.380 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.6 MB.
+System memory in use after: 207.0 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3145.
+Total: 4.670700 ms (FindLiveObjects: 0.570100 ms CreateObjectMapping: 0.312800 ms MarkObjects: 2.555100 ms  DeleteObjects: 1.230900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001910 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
@@ -182,54 +195,82 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.368 seconds
+- Completed reload, in  1.283 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.6 MB.
-System memory in use after: 206.9 MB.
+System memory in use before: 208.7 MB.
+System memory in use after: 207.0 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3184.
-Total: 4.509900 ms (FindLiveObjects: 0.594500 ms CreateObjectMapping: 0.197500 ms MarkObjects: 2.393600 ms  DeleteObjects: 1.320300 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3148.
+Total: 9.503100 ms (FindLiveObjects: 1.079900 ms CreateObjectMapping: 0.309000 ms MarkObjects: 6.534400 ms  DeleteObjects: 1.573800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002625 seconds.
+Registered in 0.002350 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.299 seconds
+- Completed reload, in  1.300 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.09 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.5 MB.
-System memory in use after: 206.9 MB.
+System memory in use before: 208.6 MB.
+System memory in use after: 207.0 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3187.
-Total: 6.258600 ms (FindLiveObjects: 0.692900 ms CreateObjectMapping: 0.428400 ms MarkObjects: 3.154300 ms  DeleteObjects: 1.979800 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3151.
+Total: 6.328500 ms (FindLiveObjects: 0.466400 ms CreateObjectMapping: 0.181100 ms MarkObjects: 3.669900 ms  DeleteObjects: 2.008700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003127 seconds.
+Registered in 0.002129 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.333 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.5 MB.
+System memory in use after: 207.0 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3154.
+Total: 7.880100 ms (FindLiveObjects: 0.678000 ms CreateObjectMapping: 0.334700 ms MarkObjects: 4.296500 ms  DeleteObjects: 2.567600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003118 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
@@ -238,90 +279,118 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.744 seconds
+- Completed reload, in  1.337 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.98 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.6 MB.
-System memory in use after: 207.0 MB.
+System memory in use before: 208.7 MB.
+System memory in use after: 207.1 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3190.
-Total: 13.971600 ms (FindLiveObjects: 2.571800 ms CreateObjectMapping: 0.598800 ms MarkObjects: 9.138400 ms  DeleteObjects: 1.658900 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3157.
+Total: 4.058800 ms (FindLiveObjects: 0.327200 ms CreateObjectMapping: 0.150400 ms MarkObjects: 2.278700 ms  DeleteObjects: 1.300900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.495529 seconds.
+Registered in 0.002066 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  8.303 seconds
+- Completed reload, in  1.344 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.6 MB.
-System memory in use after: 207.0 MB.
+System memory in use before: 208.7 MB.
+System memory in use after: 207.1 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3193.
-Total: 4.318100 ms (FindLiveObjects: 0.338900 ms CreateObjectMapping: 0.170800 ms MarkObjects: 2.571200 ms  DeleteObjects: 1.235000 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3160.
+Total: 6.636700 ms (FindLiveObjects: 0.724500 ms CreateObjectMapping: 0.277300 ms MarkObjects: 3.790800 ms  DeleteObjects: 1.841600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001930 seconds.
+Registered in 0.001983 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.340 seconds
+- Completed reload, in  1.588 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.6 MB.
-System memory in use after: 207.0 MB.
+System memory in use before: 208.7 MB.
+System memory in use after: 207.1 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3196.
-Total: 4.404000 ms (FindLiveObjects: 0.310400 ms CreateObjectMapping: 0.144200 ms MarkObjects: 2.623200 ms  DeleteObjects: 1.324600 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3163.
+Total: 4.879300 ms (FindLiveObjects: 0.625400 ms CreateObjectMapping: 0.296700 ms MarkObjects: 2.601500 ms  DeleteObjects: 1.352900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002082 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.278 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.7 MB.
+System memory in use after: 207.1 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3166.
+Total: 5.686100 ms (FindLiveObjects: 0.371100 ms CreateObjectMapping: 0.158600 ms MarkObjects: 3.410500 ms  DeleteObjects: 1.743500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 4278.196442 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5803b7aa9991690f3b8d4463ec1ceb') in 0.122051 seconds
-  Import took 0.164721 seconds .
+  Time since last request: 835.381062 seconds.
+  path: Assets/Materials/Line.mat
+  artifactKey: Guid(449d236b3ae17264e8e9dcb433e2b45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Line.mat using Guid(449d236b3ae17264e8e9dcb433e2b45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1630f2a57b9e94a08fbc21d86dd38c4c') in 0.272569 seconds
+  Import took 0.296028 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002966 seconds.
+Registered in 0.002112 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
@@ -330,1729 +399,113 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.482 seconds
+- Completed reload, in  1.912 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 2.04 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.6 MB.
-System memory in use after: 207.0 MB.
+System memory in use before: 208.8 MB.
+System memory in use after: 207.2 MB.
 
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3199.
-Total: 4.713000 ms (FindLiveObjects: 0.300600 ms CreateObjectMapping: 0.151800 ms MarkObjects: 2.932600 ms  DeleteObjects: 1.325900 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3205.
+Total: 9.603300 ms (FindLiveObjects: 1.356300 ms CreateObjectMapping: 0.344800 ms MarkObjects: 5.455800 ms  DeleteObjects: 2.435200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
+Received Import Request.
+  Time since last request: 44.112924 seconds.
+  path: Assets/Animations/CharacterFBX@Belly Dance.fbx
+  artifactKey: Guid(320504c56e1f5bd4ea6b6de04265b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/CharacterFBX@Belly Dance.fbx using Guid(320504c56e1f5bd4ea6b6de04265b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3888baedf9ce9c7f62dddc8c02a2a66') in 0.463801 seconds
+  Import took 0.487940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.967351 seconds.
+  path: Assets/Animations/CharacterFBX@Belly Dance.fbx
+  artifactKey: Guid(320504c56e1f5bd4ea6b6de04265b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/CharacterFBX@Belly Dance.fbx using Guid(320504c56e1f5bd4ea6b6de04265b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8033ddc8fa4314ee6717872922b14f2b') in 0.065192 seconds
+  Import took 0.095130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000847 seconds.
+  path: Assets/Animations/CharacterFBX@Belly Dance.fbx
+  artifactKey: Guid(320504c56e1f5bd4ea6b6de04265b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/CharacterFBX@Belly Dance.fbx using Guid(320504c56e1f5bd4ea6b6de04265b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8033ddc8fa4314ee6717872922b14f2b') in 0.053426 seconds
+  Import took 0.071805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.803415 seconds.
+  path: Assets/Animations/CharacterFBX@Falling Idle.fbx
+  artifactKey: Guid(23283f236e460e947928a774b54ef8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/CharacterFBX@Falling Idle.fbx using Guid(23283f236e460e947928a774b54ef8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529af3621b234872c1d1a8e801f2b7b0') in 0.055530 seconds
+  Import took 0.095043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.000479 seconds.
+  path: Assets/Animations/CharacterFBX@Idle.fbx
+  artifactKey: Guid(31b1b6f2ae1a1654483e5bbacca80f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/CharacterFBX@Idle.fbx using Guid(31b1b6f2ae1a1654483e5bbacca80f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ce3a808928f0ae90977b96b3c5be18') in 0.082519 seconds
+  Import took 0.101704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.734407 seconds.
+  path: Assets/Animations/CharacterFBX@Jumping 1.fbx
+  artifactKey: Guid(24c2c43ea0849e34095fadbd1b1cde21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/CharacterFBX@Jumping 1.fbx using Guid(24c2c43ea0849e34095fadbd1b1cde21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d9b9b96a47c580e93d0edfc371705a') in 0.056012 seconds
+  Import took 0.077249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.185099 seconds.
+  path: Assets/Animations/CharacterFBX@Running Forward Flip.fbx
+  artifactKey: Guid(466497038d6ac8042a197616ad2657b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/CharacterFBX@Running Forward Flip.fbx using Guid(466497038d6ac8042a197616ad2657b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177e307a083b159b591c33873b0f2723') in 0.055815 seconds
+  Import took 0.064520 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003237 seconds.
+Registered in 0.002866 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.87 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.358 seconds
+- Completed reload, in  1.209 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.6 MB.
-System memory in use after: 207.0 MB.
+System memory in use before: 208.9 MB.
+System memory in use after: 207.4 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3202.
-Total: 5.163600 ms (FindLiveObjects: 0.660200 ms CreateObjectMapping: 0.345300 ms MarkObjects: 2.756600 ms  DeleteObjects: 1.398700 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3244.
+Total: 4.935600 ms (FindLiveObjects: 0.312400 ms CreateObjectMapping: 0.140300 ms MarkObjects: 3.188400 ms  DeleteObjects: 1.292800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003134 seconds.
+Registered in 0.004678 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.328 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.6 MB.
-System memory in use after: 207.0 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3205.
-Total: 4.368700 ms (FindLiveObjects: 0.409000 ms CreateObjectMapping: 0.280900 ms MarkObjects: 2.400900 ms  DeleteObjects: 1.275800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001922 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.487 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.7 MB.
-System memory in use after: 207.0 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3208.
-Total: 4.148100 ms (FindLiveObjects: 0.382900 ms CreateObjectMapping: 0.152900 ms MarkObjects: 2.368000 ms  DeleteObjects: 1.242200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001996 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.129 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.6 MB.
-System memory in use after: 207.0 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3211.
-Total: 6.451800 ms (FindLiveObjects: 0.458700 ms CreateObjectMapping: 0.164600 ms MarkObjects: 4.121300 ms  DeleteObjects: 1.705000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002373 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.420 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.6 MB.
-System memory in use after: 207.0 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3214.
-Total: 20.381800 ms (FindLiveObjects: 2.661200 ms CreateObjectMapping: 0.718600 ms MarkObjects: 15.749000 ms  DeleteObjects: 1.250700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 456.792433 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/LightPlane-03.mat
-  artifactKey: Guid(2c70d2af0d41f46e49c317e24e37739b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/LightPlane-03.mat using Guid(2c70d2af0d41f46e49c317e24e37739b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffa473ac1f29aefd4063ff70f683e88') in 1.768806 seconds
-  Import took 1.795894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/FlatKit/Demos/[Water] Pool/Pool Scene - Models/Pool_Slippers.fbx
-  artifactKey: Guid(1af9cf0e6190a4dfa84c76645664c807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Water] Pool/Pool Scene - Models/Pool_Slippers.fbx using Guid(1af9cf0e6190a4dfa84c76645664c807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39fb22ac7d5421a4e969cb616b5f656') in 0.518068 seconds
-  Import took 0.550518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/GrassSprockets.mat
-  artifactKey: Guid(3670152e0f5ac446fa1b055dd0c53080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/GrassSprockets.mat using Guid(3670152e0f5ac446fa1b055dd0c53080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819a48a5dedf5ea38c9e5ce939b6fe2c') in 1.640500 seconds
-  Import took 1.681708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Apple.mat
-  artifactKey: Guid(e8c9cf42b0af84af58f6d9c41f024d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Apple.mat using Guid(e8c9cf42b0af84af58f6d9c41f024d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1a8af4946b2359fc959fd859b84eb4') in 0.049376 seconds
-  Import took 0.080212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Stalks.mat
-  artifactKey: Guid(9d8c7bc0291ea46609bd39a48f613b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Stalks.mat using Guid(9d8c7bc0291ea46609bd39a48f613b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76418d7623f9299da66b038290de5e2b') in 0.450681 seconds
-  Import took 0.469319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Cherries.mat
-  artifactKey: Guid(3f1e61b4dccb94123bd7e14d4994187d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Cherries.mat using Guid(3f1e61b4dccb94123bd7e14d4994187d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57eab42aef735c700b45e9627118124c') in 0.046355 seconds
-  Import took 0.065744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-06.mat
-  artifactKey: Guid(a09f691a2eca6428781040174383f956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-06.mat using Guid(a09f691a2eca6428781040174383f956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03aa43a44f133b783394eb46315b49a7') in 0.524994 seconds
-  Import took 0.551805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Room/Room-Materials/Color7.mat
-  artifactKey: Guid(41c0e3c20a5094639a1ee0ddc4bfe971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Room/Room-Materials/Color7.mat using Guid(41c0e3c20a5094639a1ee0ddc4bfe971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b47ae21244caa4c3b996990f2c8a7d') in 0.494898 seconds
-  Import took 0.517211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/FlatKit/PresetsShared/Materials/CelWithRim01__StylSurf_Single_ExCel_Spec_Rim.mat
-  artifactKey: Guid(67e02736826e94ff1a0442df707a7a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/PresetsShared/Materials/CelWithRim01__StylSurf_Single_ExCel_Spec_Rim.mat using Guid(67e02736826e94ff1a0442df707a7a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e96e3c11f4f1db01123d45ed50eb36') in 0.449524 seconds
-  Import took 0.494607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-04.mat
-  artifactKey: Guid(b184e89337c8240f79100ad4fd539699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-04.mat using Guid(b184e89337c8240f79100ad4fd539699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac14e821416a09c39b00cca0e83fe32d') in 0.044520 seconds
-  Import took 0.059396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/EffectTexturesAndPrefabs/Materials/Heart.mat
-  artifactKey: Guid(39fbad40cddaec94196b2768dba204a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectTexturesAndPrefabs/Materials/Heart.mat using Guid(39fbad40cddaec94196b2768dba204a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b4bf801899aa4df0eda7599d203918') in 0.106635 seconds
-  Import took 0.136533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/Shared/BlueprintGrid-Skybox.mat
-  artifactKey: Guid(1d6fcf92d8b1c4cf2bb59127bec65605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/Shared/BlueprintGrid-Skybox.mat using Guid(1d6fcf92d8b1c4cf2bb59127bec65605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d0021449e603bf3927b41569b6359b') in 0.085752 seconds
-  Import took 0.112290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Cloud.mat
-  artifactKey: Guid(5481a35da307c44548792a454ef34271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Cloud.mat using Guid(5481a35da307c44548792a454ef34271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acb3a05bc6c9b254a100dc123e22e96') in 0.085323 seconds
-  Import took 0.123199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Plates.mat
-  artifactKey: Guid(783e6eb0854334fc98fdba1a3f26ae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Plates.mat using Guid(783e6eb0854334fc98fdba1a3f26ae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81b5a9c78ece06c1b081736780cd6b2') in 0.348993 seconds
-  Import took 0.377414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Grape.mat
-  artifactKey: Guid(ccb08d2326c8e426e89cf8134fd38ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Grape.mat using Guid(ccb08d2326c8e426e89cf8134fd38ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881dec06f082ec74c8233aa9e3b1438c') in 0.106505 seconds
-  Import took 0.200671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Plane.mat
-  artifactKey: Guid(46db7ba04285c46109e450d53292a114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Plane.mat using Guid(46db7ba04285c46109e450d53292a114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df687a1aac4ce23d2dbb9e392b766b86') in 0.056122 seconds
-  Import took 0.062664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Lights3.mat
-  artifactKey: Guid(16805951027bc42d187d5eb94e9b2e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Lights3.mat using Guid(16805951027bc42d187d5eb94e9b2e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31e618030676f17b5b734561fae2583') in 0.347109 seconds
-  Import took 0.380834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-05.mat
-  artifactKey: Guid(88542bf88d90145e99642d66c2969744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-05.mat using Guid(88542bf88d90145e99642d66c2969744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99981c2ded7042445d93916684f61089') in 0.044163 seconds
-  Import took 0.059963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car3Body.mat
-  artifactKey: Guid(1a5602b1bb62540499324bab7b9de1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car3Body.mat using Guid(1a5602b1bb62540499324bab7b9de1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bfaf68a67c5617a3072029c7ae7aca') in 0.344996 seconds
-  Import took 0.351282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Plane2.mat
-  artifactKey: Guid(f32d9e0dd01cf40d6a62d9692d7e5b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Plane2.mat using Guid(f32d9e0dd01cf40d6a62d9692d7e5b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05987432f842955edcacdd533e61bda9') in 0.029490 seconds
-  Import took 0.064175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Grenade.mat
-  artifactKey: Guid(1e713864208124b5890945e2967fd787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Grenade.mat using Guid(1e713864208124b5890945e2967fd787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1604c38350baf564bc2bb4d6636c70') in 0.057228 seconds
-  Import took 0.084834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Chrome.mat
-  artifactKey: Guid(067013b2a82eb4cad87d82235ed2d552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Chrome.mat using Guid(067013b2a82eb4cad87d82235ed2d552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1f56908482ee15599a77723f633090') in 0.367480 seconds
-  Import took 0.400298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b97105c39550615da44bc45de55cc0') in 0.443825 seconds
-  Import took 0.483331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Pine1.mat
-  artifactKey: Guid(b150071b958b0481ca53626d433f864b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Pine1.mat using Guid(b150071b958b0481ca53626d433f864b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e682eac9480343f4874ddcca7e13474') in 0.359209 seconds
-  Import took 0.382245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-11.mat
-  artifactKey: Guid(f82135f2bca0949279eade31997c5b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-11.mat using Guid(f82135f2bca0949279eade31997c5b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37dbc1e1818c9055f4cdedf89473a3a') in 0.396548 seconds
-  Import took 0.402924 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Room/Room-Materials/Color3.mat
-  artifactKey: Guid(3536f55246ffc4b96ab4c4144e1251ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Room/Room-Materials/Color3.mat using Guid(3536f55246ffc4b96ab4c4144e1251ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346a3f65a16e3d86d2405b4805a528ec') in 0.381358 seconds
-  Import took 0.416866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/FlatKit/PresetsShared/Materials/LacquerGray__StylSurf_Single_ExCel_Spec_Rim 1.mat
-  artifactKey: Guid(eca77510b14ce49bd9069248e3037387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/PresetsShared/Materials/LacquerGray__StylSurf_Single_ExCel_Spec_Rim 1.mat using Guid(eca77510b14ce49bd9069248e3037387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f397256727c6f629845a33018034b81') in 0.037514 seconds
-  Import took 0.057282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Hatch.mat
-  artifactKey: Guid(02d647967c9044a10b8c17e7012bdb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Hatch.mat using Guid(02d647967c9044a10b8c17e7012bdb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075c7630d068110f65a61c8cbbfcb88d') in 0.390110 seconds
-  Import took 0.422138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-StrawberrySeeds.mat
-  artifactKey: Guid(d307ada0096114322b70030904107641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-StrawberrySeeds.mat using Guid(d307ada0096114322b70030904107641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40edcacaacf620c95c5fb0f44f28cd4e') in 0.044129 seconds
-  Import took 0.070259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Grenade.mat
-  artifactKey: Guid(dd9373dce9879486c834e9186bac8e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Grenade.mat using Guid(dd9373dce9879486c834e9186bac8e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026ab83a29c50409002ab94f70713bd7') in 0.485519 seconds
-  Import took 0.519526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarBody-2.mat
-  artifactKey: Guid(bb36b6b2f0f7544f38a1b7b4ade6144b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarBody-2.mat using Guid(bb36b6b2f0f7544f38a1b7b4ade6144b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc3911d9a908fa41d2d0eb40952fe3c') in 0.082932 seconds
-  Import took 0.125455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-14.mat
-  artifactKey: Guid(dea6faf6a0e174ae6b9501e06bac8d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-14.mat using Guid(dea6faf6a0e174ae6b9501e06bac8d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a5e06239c98da11c3ddb23a40217ef') in 0.617793 seconds
-  Import took 0.630503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000491 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Banana.mat
-  artifactKey: Guid(9d552e75b21724ee0ae4840788bdeb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Banana.mat using Guid(9d552e75b21724ee0ae4840788bdeb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e032c81b9b8e980edf70bc4d87659e92') in 0.597277 seconds
-  Import took 0.615708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000538 seconds.
-  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Trunk.mat
-  artifactKey: Guid(ded336aa68f974aef9407c809a4b788c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Trunk.mat using Guid(ded336aa68f974aef9407c809a4b788c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8029e96ed6e962697b75c655ce517e6') in 0.572245 seconds
-  Import took 0.606451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000865 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Plane 1.mat
-  artifactKey: Guid(3dfc8ff912d6e4fb48a3c3ab38ca08aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Plane 1.mat using Guid(3dfc8ff912d6e4fb48a3c3ab38ca08aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd8d24335956791cfeb48d071d30fb8') in 0.587850 seconds
-  Import took 0.623174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Leaves.mat
-  artifactKey: Guid(f145e4d40e0bc42c59a9a5fd4b27f4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Leaves.mat using Guid(f145e4d40e0bc42c59a9a5fd4b27f4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51553d78b8161270a79e2fc3c0330e49') in 0.071286 seconds
-  Import took 0.101913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Pear1.mat
-  artifactKey: Guid(7c2c5a0b294914197a9130e7e3337128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Pear1.mat using Guid(7c2c5a0b294914197a9130e7e3337128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbb318d5357897cee2b2a68a219fe3d') in 0.044218 seconds
-  Import took 0.098203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Skybox.mat
-  artifactKey: Guid(953e71ae084a94b128e87ff9e90548da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Skybox.mat using Guid(953e71ae084a94b128e87ff9e90548da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c9bf1767d76f9a391fa7a84afcdbc2') in 0.060013 seconds
-  Import took 0.079485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-Tyres.mat
-  artifactKey: Guid(b7f51a65744b04f47ab97ed9a82302dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-Tyres.mat using Guid(b7f51a65744b04f47ab97ed9a82302dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32dc932a42d55f0f2c1a638552a3760f') in 0.060007 seconds
-  Import took 0.083899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000518 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-8.mat
-  artifactKey: Guid(e5aab80f9233143499189c94e0b74a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-8.mat using Guid(e5aab80f9233143499189c94e0b74a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38de6bceb7d690d973146786a87fe19a') in 0.513563 seconds
-  Import took 0.545917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-WheelRims.mat
-  artifactKey: Guid(d8bcc739eed2649b282244b386b39aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-WheelRims.mat using Guid(d8bcc739eed2649b282244b386b39aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa957883b888fef91d259b321f3b54ba') in 0.062719 seconds
-  Import took 0.094346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarChrome.mat
-  artifactKey: Guid(78c9e2e2addf043fba37143b60495478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarChrome.mat using Guid(78c9e2e2addf043fba37143b60495478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf170ba5e0952637b66e713c0be4d9f') in 0.530406 seconds
-  Import took 0.536231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Pine3.mat
-  artifactKey: Guid(a26c6b1c537d54074886286a602d0776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Pine3.mat using Guid(a26c6b1c537d54074886286a602d0776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8cc3c54678b31756ea8fce8520c91de') in 0.066643 seconds
-  Import took 0.090303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Vase.mat
-  artifactKey: Guid(c88d6fe94495d45cd8f3ea600296c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Vase.mat using Guid(c88d6fe94495d45cd8f3ea600296c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6ecbfb6da9e4f29fbacc0e6f08d5d3') in 0.561623 seconds
-  Import took 0.598802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/LightPlane-04.mat
-  artifactKey: Guid(b9a6c963e535148c8a8beae422b28f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/LightPlane-04.mat using Guid(b9a6c963e535148c8a8beae422b28f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f337dc1b5d3c608c6c7cf69fd13d25a') in 0.052541 seconds
-  Import took 0.078921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/FlatKit/PresetsShared/Materials/GlassLook01__StylSurf_Single_Spec.mat
-  artifactKey: Guid(490bf097c15f14b0eb0bc61fd4f7a2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/PresetsShared/Materials/GlassLook01__StylSurf_Single_Spec.mat using Guid(490bf097c15f14b0eb0bc61fd4f7a2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85d5a2fcb6e0aa9333a3d59ebb36768') in 0.062490 seconds
-  Import took 0.092192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000927 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-Skybox.mat
-  artifactKey: Guid(7d5a790d4c8ad4a3ca6178ff7a8bc6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-Skybox.mat using Guid(7d5a790d4c8ad4a3ca6178ff7a8bc6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf20ff91cdc6d0e8ae0ce8ab27cb1d4') in 0.056831 seconds
-  Import took 0.070742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000714 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Pear2.mat
-  artifactKey: Guid(499febfd1f6234475a1b87547405a72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Pear2.mat using Guid(499febfd1f6234475a1b87547405a72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096606b601b47f11350256c0edf2fa1e') in 0.133178 seconds
-  Import took 0.152675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Pear2.mat
-  artifactKey: Guid(ebd094c9d8fa7491595558541626643b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Pear2.mat using Guid(ebd094c9d8fa7491595558541626643b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448a31c4677c5ab198e5172c1f37f4d9') in 0.064535 seconds
-  Import took 0.086930 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Room/Room-Materials/Color5.mat
-  artifactKey: Guid(f4d934c966f94468d8fc66b44e9004e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Room/Room-Materials/Color5.mat using Guid(f4d934c966f94468d8fc66b44e9004e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9deb911c8f023d78c9a73edf92bf12ba') in 0.124282 seconds
-  Import took 0.153104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Apple.mat
-  artifactKey: Guid(296f44fbf99bf4a358d0f718c4db034d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Apple.mat using Guid(296f44fbf99bf4a358d0f718c4db034d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd41467b60c6557f1e476aa3cc8c5ed4') in 0.077199 seconds
-  Import took 0.103671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Stalks.mat
-  artifactKey: Guid(db756591547934cb684db2b56dd7e694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Stalks.mat using Guid(db756591547934cb684db2b56dd7e694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b13d16068f1be55bcc9da3f0a3cfc93') in 0.074868 seconds
-  Import took 0.082398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-12.mat
-  artifactKey: Guid(b44fafb1c5a874fae8b2940ccbec5ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-12.mat using Guid(b44fafb1c5a874fae8b2940ccbec5ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbd1c0fa75f0ee66213fb0eb38e2f54') in 0.649201 seconds
-  Import took 0.657590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000496 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/LightPlane-05-Particle.mat
-  artifactKey: Guid(8730b4fadbeef4dc18025b18b4fc7d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/LightPlane-05-Particle.mat using Guid(8730b4fadbeef4dc18025b18b4fc7d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b15286dba19451040e6a801ea07b45') in 0.126024 seconds
-  Import took 0.159014 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-01.mat
-  artifactKey: Guid(e831e374758eb4a019b3031699e35407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-01.mat using Guid(e831e374758eb4a019b3031699e35407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6d499283d9c9c3b12c9b054daebad3') in 0.073822 seconds
-  Import took 0.090211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Pine2.mat
-  artifactKey: Guid(7829938bf6c8a418d986264d9bd48abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Pine2.mat using Guid(7829938bf6c8a418d986264d9bd48abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4fd207811bc19561473bd33ae849d1') in 0.062912 seconds
-  Import took 0.080647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarBody-1.mat
-  artifactKey: Guid(7a5d9c794f1aa483795f7422042e1c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarBody-1.mat using Guid(7a5d9c794f1aa483795f7422042e1c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3eff797ffa37616b346c342167dda8') in 0.057571 seconds
-  Import took 0.111447 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car2Chrome2.mat
-  artifactKey: Guid(216bc1afbd31e4ffc9900ed3ea656a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car2Chrome2.mat using Guid(216bc1afbd31e4ffc9900ed3ea656a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f635e3cbfe4c22b43830db639eba63') in 0.554273 seconds
-  Import took 0.563670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000629 seconds.
-  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Leaves3.mat
-  artifactKey: Guid(d6461306e2f2c406e9a61049b47b3f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Leaves3.mat using Guid(d6461306e2f2c406e9a61049b47b3f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e13eb71ff1a8c360f087403bb7098f') in 0.676256 seconds
-  Import took 0.684341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000499 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Cherries.mat
-  artifactKey: Guid(9befce0e5bf1340cbbd0e869f14572d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Cherries.mat using Guid(9befce0e5bf1340cbbd0e869f14572d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ef11745083063c2bcccbc30a098899') in 0.122248 seconds
-  Import took 0.147682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000507 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce385cb07b38df609c7a5380893ac6e0') in 0.230491 seconds
-  Import took 0.274903 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car4Body.mat
-  artifactKey: Guid(b4512ff0865814bd4b30cfb8abc628df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car4Body.mat using Guid(b4512ff0865814bd4b30cfb8abc628df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3146db35167f768eac67c3609cd85a82') in 0.071312 seconds
-  Import took 0.094146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Skybox.mat
-  artifactKey: Guid(0597b99e8508745448c42dd504f802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Skybox.mat using Guid(0597b99e8508745448c42dd504f802a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304116738c5980d061119bda871eba62') in 0.070013 seconds
-  Import took 0.092944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Room/Room-Materials/Color6.mat
-  artifactKey: Guid(c0870a54e466749628ef4e2adc1a6221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Room/Room-Materials/Color6.mat using Guid(c0870a54e466749628ef4e2adc1a6221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3514b5eabc30bd2f0c3d15eb61fadbb7') in 0.066935 seconds
-  Import took 0.075500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Plane2.mat
-  artifactKey: Guid(b2da8ee576f344749807e82e99bf8239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Plane2.mat using Guid(b2da8ee576f344749807e82e99bf8239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c3ccfa8b121e2a327dec80025ebe28') in 0.620215 seconds
-  Import took 0.652657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000528 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-13.mat
-  artifactKey: Guid(5de98860df0034b1fbb8bd3c83257f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-13.mat using Guid(5de98860df0034b1fbb8bd3c83257f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13d01a33e03964fc56dcd27df4b4457') in 0.580944 seconds
-  Import took 0.620895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000744 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Apple.mat
-  artifactKey: Guid(d150221c5ae4748ee8e97f0d473b3c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Apple.mat using Guid(d150221c5ae4748ee8e97f0d473b3c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a03cd3cbf39d486660c037f4d568f5e') in 0.124404 seconds
-  Import took 0.131548 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000480 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Banana.mat
-  artifactKey: Guid(09d689fffc8ae4e19a0c30d4470c8a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Banana.mat using Guid(09d689fffc8ae4e19a0c30d4470c8a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4c7f1fbf73b2bf2994eb7403ebb113') in 0.078749 seconds
-  Import took 0.099807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000956 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Grape.mat
-  artifactKey: Guid(3d8eb1b1892c84575ac0cdf4cd9c9906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Grape.mat using Guid(3d8eb1b1892c84575ac0cdf4cd9c9906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5c5e0fb11f7e4a3397766ad641f47e') in 0.063903 seconds
-  Import took 0.073401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-07.mat
-  artifactKey: Guid(bf02260f0c2704f2cb34ad5fb15ea544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-07.mat using Guid(bf02260f0c2704f2cb34ad5fb15ea544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6caf7a2154eb9cc51a7513d1a8f731f1') in 0.593829 seconds
-  Import took 0.611667 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Pear2.mat
-  artifactKey: Guid(0f171c6eeafc140ccaa4cbb55e13d6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Pear2.mat using Guid(0f171c6eeafc140ccaa4cbb55e13d6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b143cc981738de9e2307ace39e6e84') in 0.093044 seconds
-  Import took 0.122990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/FlatKit/PresetsShared/Materials/DarkPaleWhiteRim__StylSurf_Single_Rim.mat
-  artifactKey: Guid(1de9f01c7ba864c0487f9e7a3be4e645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/PresetsShared/Materials/DarkPaleWhiteRim__StylSurf_Single_Rim.mat using Guid(1de9f01c7ba864c0487f9e7a3be4e645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb2a0d3ab0a600dde6ffee5ff61c056') in 0.542889 seconds
-  Import took 0.572872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000511 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Pear1.mat
-  artifactKey: Guid(71668e110ec8947c6a7c309c863a2fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Pear1.mat using Guid(71668e110ec8947c6a7c309c863a2fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3782ac3f4ebbf297304ac450f61025de') in 0.076293 seconds
-  Import took 0.086656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/EffectTexturesAndPrefabs/Materials/Light.mat
-  artifactKey: Guid(05fa321eed70c8a4abaaa1eb517bb3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectTexturesAndPrefabs/Materials/Light.mat using Guid(05fa321eed70c8a4abaaa1eb517bb3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5bf73634c0975db7e2f03a7e7b33b7') in 0.109184 seconds
-  Import took 0.131493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/LightPlane-01.mat
-  artifactKey: Guid(3bcaad8753c76425a90d2c19e7f2018f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/LightPlane-01.mat using Guid(3bcaad8753c76425a90d2c19e7f2018f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376ffd1f4cf4e207d5eb552a625e176c') in 0.059789 seconds
-  Import took 0.070601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Wanderer/Wanderer-Models/Pillar03.fbx
-  artifactKey: Guid(4f651065c72f842198ba5e17ab937142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Wanderer/Wanderer-Models/Pillar03.fbx using Guid(4f651065c72f842198ba5e17ab937142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4190457a034a05f0941d6544a2432e0f') in 0.099184 seconds
-  Import took 0.111460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Skybox.mat
-  artifactKey: Guid(a3b768f5754894b179d3c2034ae62ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Skybox.mat using Guid(a3b768f5754894b179d3c2034ae62ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1783142bd48c1c2f551a99fc2abb9164') in 0.072133 seconds
-  Import took 0.095133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Plane.mat
-  artifactKey: Guid(8d98e0d5ab52a4b1199b3dc86c83dcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Plane.mat using Guid(8d98e0d5ab52a4b1199b3dc86c83dcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab91eca05a60b252fb4d143034bc40b') in 0.068703 seconds
-  Import took 0.077129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Lights1.mat
-  artifactKey: Guid(283a705137c9344f9b4abcda7229f773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Lights1.mat using Guid(283a705137c9344f9b4abcda7229f773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59abe13df857fd78b334fe6372e686d1') in 0.098324 seconds
-  Import took 0.131036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/FlatKit/PresetsShared/Materials/CelWithRim02__StylSurf_Single_ExCel_Spec_Rim.mat
-  artifactKey: Guid(727cfaf3482ac48ff97b662624abc435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/PresetsShared/Materials/CelWithRim02__StylSurf_Single_ExCel_Spec_Rim.mat using Guid(727cfaf3482ac48ff97b662624abc435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b194158286e6e418a68ebd89de1d378') in 0.085776 seconds
-  Import took 0.096199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000450 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/Shared/BlueprintGrid-Grid.mat
-  artifactKey: Guid(bb2ae5fffe88a4ed8825df8aa4d870d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/Shared/BlueprintGrid-Grid.mat using Guid(bb2ae5fffe88a4ed8825df8aa4d870d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e776011a61146b8b17568d37f1bd9d8') in 0.249454 seconds
-  Import took 0.269859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-CarChrome2.mat
-  artifactKey: Guid(22080b292022d4a4d916858915c871ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-CarChrome2.mat using Guid(22080b292022d4a4d916858915c871ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20fb9f7dd310fc7dc01683d35fac3aa') in 0.055496 seconds
-  Import took 0.071939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Plane.mat
-  artifactKey: Guid(75881e6aafc62438eb6247479071c5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Plane.mat using Guid(75881e6aafc62438eb6247479071c5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c2bacebaf9caf1b0256838d01ef5fc') in 0.573880 seconds
-  Import took 0.698833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000811 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarLights.mat
-  artifactKey: Guid(44d316af5efe24ff2b55fadf003af34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarLights.mat using Guid(44d316af5efe24ff2b55fadf003af34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a151f2f449f15bab12ac7507fb2c6f') in 0.076896 seconds
-  Import took 0.119222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-6.mat
-  artifactKey: Guid(1ba3ff017073f4f55b116aeb4f31456a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-6.mat using Guid(1ba3ff017073f4f55b116aeb4f31456a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c5c9c525f06bdb25716f6f20a5bc97') in 0.562760 seconds
-  Import took 0.580889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-2.mat
-  artifactKey: Guid(2eb9c8d0c1d6e439384930b2be8a6ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-2.mat using Guid(2eb9c8d0c1d6e439384930b2be8a6ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f0ce514178c201479b4f5013a82419') in 0.043302 seconds
-  Import took 0.061062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Stone.mat
-  artifactKey: Guid(52763759e95824a319cde1e82245c4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Stone.mat using Guid(52763759e95824a319cde1e82245c4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13ecfeeb980209aa94cf63e7045729e') in 0.540994 seconds
-  Import took 0.583872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000834 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-03.mat
-  artifactKey: Guid(6bc6592a65b9342eba1326a6beb25c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-03.mat using Guid(6bc6592a65b9342eba1326a6beb25c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e452ede04b2dc0a40757cabcd26bd0e') in 0.563678 seconds
-  Import took 0.583839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Room/Room-Materials/Color1.mat
-  artifactKey: Guid(ac22db79fae374f3d85f2ccec8342bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Room/Room-Materials/Color1.mat using Guid(ac22db79fae374f3d85f2ccec8342bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91e3a35bd5b9eda82612fbc434f9046') in 0.080531 seconds
-  Import took 0.121887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Plane.mat
-  artifactKey: Guid(6af3ee3816dbf4e429aa2552d2bfd8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Plane.mat using Guid(6af3ee3816dbf4e429aa2552d2bfd8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c5290484657f197d64b852ea9f8e0b') in 0.088900 seconds
-  Import took 0.105368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Chrome2.mat
-  artifactKey: Guid(7af8bb9140fc243589d384c6421d2510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Chrome2.mat using Guid(7af8bb9140fc243589d384c6421d2510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253dc2b8d5296537a68b83e4c7f7983a') in 0.571117 seconds
-  Import took 0.603007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000733 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Banana.mat
-  artifactKey: Guid(89cc8193ed1304e478bbf3dd80ce0dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Banana.mat using Guid(89cc8193ed1304e478bbf3dd80ce0dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092c901e4ea2ba118807bb17614cbddb') in 0.105374 seconds
-  Import took 0.134507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000494 seconds.
-  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Plane3.mat
-  artifactKey: Guid(e54a9beee9d604cf1a63a62beef1f1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Plane3.mat using Guid(e54a9beee9d604cf1a63a62beef1f1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09820f3eeddd3bc9874212f6283b7530') in 0.105930 seconds
-  Import took 0.116605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Plane2.mat
-  artifactKey: Guid(aa3ed64776211440cac35952529067a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Plane2.mat using Guid(aa3ed64776211440cac35952529067a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0679bd6e38bb745013f0092151dd43') in 0.043398 seconds
-  Import took 0.075560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-4.mat
-  artifactKey: Guid(039052bae636446f19dde34f32a92f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-4.mat using Guid(039052bae636446f19dde34f32a92f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddf0b1ec296e6ff92212dc416b68691') in 0.531565 seconds
-  Import took 0.540059 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Vase.mat
-  artifactKey: Guid(8135cf567f3a947aaa78e561607fa0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Vase.mat using Guid(8135cf567f3a947aaa78e561607fa0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0a42fa3758229980c28fded89ec858') in 0.066305 seconds
-  Import took 0.076952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001283 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Shared/Car-Skybox.mat
-  artifactKey: Guid(ba73a2ed8551e4e52abc93b14e2d7634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Shared/Car-Skybox.mat using Guid(ba73a2ed8551e4e52abc93b14e2d7634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02872ccf02d8cd48e41e49cd84f8ebc') in 0.053910 seconds
-  Import took 0.061232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Cherries.mat
-  artifactKey: Guid(e1f7a4beaccf842febeeb7c759f119c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Cherries.mat using Guid(e1f7a4beaccf842febeeb7c759f119c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c846ebe22f60dbd66414fd57ec95cd41') in 0.064778 seconds
-  Import took 0.085307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Leaves.mat
-  artifactKey: Guid(d4954f29ebb334b08a03231dbbd93eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Leaves.mat using Guid(d4954f29ebb334b08a03231dbbd93eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79973e00923bf083b81ad42b44f77102') in 0.121219 seconds
-  Import took 0.139194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Pine4.mat
-  artifactKey: Guid(1b9a901635d904eb68dd916621402e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Pine4.mat using Guid(1b9a901635d904eb68dd916621402e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8450a16072ad6a052039b84ddf25e2') in 0.075935 seconds
-  Import took 0.107974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Windows.mat
-  artifactKey: Guid(3750c2daa71d9474cbdd9ff6a48df142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Windows.mat using Guid(3750c2daa71d9474cbdd9ff6a48df142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84798d7e9339464467af9470f6ab5c29') in 0.073789 seconds
-  Import took 0.116648 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-08.mat
-  artifactKey: Guid(3f40fef2e4b9a46978153473ed0594c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-08.mat using Guid(3f40fef2e4b9a46978153473ed0594c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5636117ca153082610f01f35962c3a6b') in 0.054898 seconds
-  Import took 0.087841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Grape.mat
-  artifactKey: Guid(0a8f2d4c180e14933bb063e01772ad21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Grape.mat using Guid(0a8f2d4c180e14933bb063e01772ad21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab277ddc1fd346eca4558006307df3a') in 0.111884 seconds
-  Import took 0.120787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Banana.mat
-  artifactKey: Guid(a8c7e1f1d8dda4ac9ad82478ee656794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Banana.mat using Guid(a8c7e1f1d8dda4ac9ad82478ee656794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd185f734719d18995c79875f3949a245') in 0.226819 seconds
-  Import took 0.241015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Plane2.mat
-  artifactKey: Guid(7960ccd4b93bf4d6890224b11274ba5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Plane2.mat using Guid(7960ccd4b93bf4d6890224b11274ba5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac1732178afedb56fbbb4700b5bf8ee') in 0.335279 seconds
-  Import took 0.392680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000825 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-Windows.mat
-  artifactKey: Guid(e3a756b36108d41c2837a50418d882c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-Windows.mat using Guid(e3a756b36108d41c2837a50418d882c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a453f5cef97c965326991cb94ce250b8') in 0.154183 seconds
-  Import took 0.191119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001663 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Vase.mat
-  artifactKey: Guid(139886173f09248739c97ba00a95b852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Vase.mat using Guid(139886173f09248739c97ba00a95b852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f6a8cec7dcb9c1a2634b921c2d0445') in 0.292011 seconds
-  Import took 0.342030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000498 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Plane 3.mat
-  artifactKey: Guid(7ea70551973d64eb48aa89a206144079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Plane 3.mat using Guid(7ea70551973d64eb48aa89a206144079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ceacf8a26ee50501f10bcdd8dc01cd') in 0.458424 seconds
-  Import took 0.494260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-GrassIsles.mat
-  artifactKey: Guid(c7f074556bea848c58544e11c2fcc5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-GrassIsles.mat using Guid(c7f074556bea848c58544e11c2fcc5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8376b70754ebcf3d92bc585adb44fe') in 0.104119 seconds
-  Import took 0.169706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003527 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Plane 2.mat
-  artifactKey: Guid(9316a15b4ba0b4f24b7c6ba705f05a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Plane 2.mat using Guid(9316a15b4ba0b4f24b7c6ba705f05a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588f117577f4a59a8e117371dea37518') in 0.161238 seconds
-  Import took 0.172198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000818 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-5.mat
-  artifactKey: Guid(6d0f60b4399f94b6d8d389c31f031e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-5.mat using Guid(6d0f60b4399f94b6d8d389c31f031e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526ab1451d9a47735f548f3df5eb059e') in 0.114535 seconds
-  Import took 0.172010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Strawberry.mat
-  artifactKey: Guid(fab778e119b8f4f47b65372606390d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Strawberry.mat using Guid(fab778e119b8f4f47b65372606390d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551bd0c0e5fe121ae5f4a7bf142edadc') in 0.140191 seconds
-  Import took 0.161283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Grenade.mat
-  artifactKey: Guid(4c460122f06154244961f7f1d8ec76fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Grenade.mat using Guid(4c460122f06154244961f7f1d8ec76fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d25d6ab8c74f5f1fb7aa7c2ca5afe9') in 0.088793 seconds
-  Import took 0.209537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002435 seconds.
-  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Skybox.mat
-  artifactKey: Guid(d85e7efb5873b46baaeac8b037853da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Skybox.mat using Guid(d85e7efb5873b46baaeac8b037853da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32167e2820e0299dc30a9f0df8fa65fc') in 0.110231 seconds
-  Import took 0.145627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001603 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Pear1.mat
-  artifactKey: Guid(7303eb7866ef24a1f9276cef9d5c1511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Pear1.mat using Guid(7303eb7866ef24a1f9276cef9d5c1511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d7fbecff3a0962dea426039947636c') in 0.237644 seconds
-  Import took 0.248044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Pear1.mat
-  artifactKey: Guid(4061a85dc5dea44119966936744e4065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Pear1.mat using Guid(4061a85dc5dea44119966936744e4065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195ed33f874d6a451ba66d09086cf7d0') in 0.062545 seconds
-  Import took 0.139869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001315 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Room/Room-Materials/Color3-AdjustedCel.mat
-  artifactKey: Guid(be66cbc24911c4b3bb9d077f818337ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Room/Room-Materials/Color3-AdjustedCel.mat using Guid(be66cbc24911c4b3bb9d077f818337ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa96a62aca2cb17c81a3b0209e3b436') in 0.137481 seconds
-  Import took 0.221721 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Plane.mat
-  artifactKey: Guid(9d823727a38d648978b27af5e116b43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Plane.mat using Guid(9d823727a38d648978b27af5e116b43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086b4b8edcabd06dbd5bdec4851f1e41') in 0.060801 seconds
-  Import took 0.093429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-10.mat
-  artifactKey: Guid(7c21cd5ce29a140cba4c9ae961a24b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-10.mat using Guid(7c21cd5ce29a140cba4c9ae961a24b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a8102eecb2c0aac3f02cbc841d93ea') in 0.047945 seconds
-  Import took 0.065643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001120 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarPlates.mat
-  artifactKey: Guid(6d04a4a37117a409aae15b2f396d8679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarPlates.mat using Guid(6d04a4a37117a409aae15b2f396d8679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8001e62e7cd4f986b67adf8763022f0') in 0.054359 seconds
-  Import took 0.113526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000772 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/LightPlane-02.mat
-  artifactKey: Guid(fa03a20f90929460badefbe4c3c00066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/LightPlane-02.mat using Guid(fa03a20f90929460badefbe4c3c00066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb44498216de6180a10ccb7a61c7eae') in 0.061364 seconds
-  Import took 0.090264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Leaves.mat
-  artifactKey: Guid(e3abdacc86588450f93b1e2fad43846b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Leaves.mat using Guid(e3abdacc86588450f93b1e2fad43846b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9674a1d48601679495dd8e92a5f73b30') in 0.120066 seconds
-  Import took 0.145895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000481 seconds.
-  path: Assets/Materials/LineRenderer.mat
-  artifactKey: Guid(d322690ecc2088b41b5afccb1cfcdbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LineRenderer.mat using Guid(d322690ecc2088b41b5afccb1cfcdbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3acef69e88fc6e4a6af21002cdf44782') in 0.455189 seconds
-  Import took 0.481266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Body.mat
-  artifactKey: Guid(8f00bde2c4e76407f9e853cd7cba5c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Body.mat using Guid(8f00bde2c4e76407f9e853cd7cba5c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59feb6396eab9bc0d220c2486281af8') in 0.105982 seconds
-  Import took 0.141508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Plane1.mat
-  artifactKey: Guid(f0ff908cb410c4f24b8f718c64e6a554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Plane1.mat using Guid(f0ff908cb410c4f24b8f718c64e6a554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a90c0a0d46b7ee6ae56a359e147982b') in 0.089208 seconds
-  Import took 0.122727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-StrawberrySeeds.mat
-  artifactKey: Guid(e72d04407c5fa495d8e770cfd66f4fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-StrawberrySeeds.mat using Guid(e72d04407c5fa495d8e770cfd66f4fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f71ca36c1e26228635d51dc3d7b9786') in 0.060528 seconds
-  Import took 0.083487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/FlatTerrain-TerrainShader.mat
-  artifactKey: Guid(a79e530177dbca84baa81584a662ffda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/FlatTerrain-TerrainShader.mat using Guid(a79e530177dbca84baa81584a662ffda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebdb5cb4c55ef51f6f692008381c01d') in 1.241797 seconds
-  Import took 1.247524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-Plane.mat
-  artifactKey: Guid(b8f3228713c914ec5af1845bba199765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-Plane.mat using Guid(b8f3228713c914ec5af1845bba199765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7817e3738889d45864fac54148fd385') in 0.044980 seconds
-  Import took 0.060549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car2Body.mat
-  artifactKey: Guid(29f5d3455b4d3479ab9f6799b2a9092e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car2Body.mat using Guid(29f5d3455b4d3479ab9f6799b2a9092e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fd3e9f852c690c89a50cdb8aef7f6d') in 0.055063 seconds
-  Import took 0.071962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Strawberry.mat
-  artifactKey: Guid(420b99919db8d4e49ab62697a33585ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Strawberry.mat using Guid(420b99919db8d4e49ab62697a33585ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8a93fbe4a5e8253286961ff840b523') in 0.057734 seconds
-  Import took 0.088664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-StrawberrySeeds.mat
-  artifactKey: Guid(12634e13e0ea040f18e3c0ef503c889e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-StrawberrySeeds.mat using Guid(12634e13e0ea040f18e3c0ef503c889e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6a42aa3dba2ff8d3e2027f56be4f31') in 0.083481 seconds
-  Import took 0.107300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Room/Room-Materials/Color2.mat
-  artifactKey: Guid(ac33f6af705d44a23ab4486f869f34fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Room/Room-Materials/Color2.mat using Guid(ac33f6af705d44a23ab4486f869f34fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acccfa5ca0df9642482a92200f8b5b0c') in 0.212313 seconds
-  Import took 0.265796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-09.mat
-  artifactKey: Guid(ef8addc58707a4ed5a4c9762c5a2e258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-09.mat using Guid(ef8addc58707a4ed5a4c9762c5a2e258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfb9ad554c2a051b6b583de8fc9bd0c') in 0.087262 seconds
-  Import took 0.120177 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Fonts/Oswald-Regular.ttf
-  artifactKey: Guid(b88ed8160d94d47ec8631c273a6df62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Fonts/Oswald-Regular.ttf using Guid(b88ed8160d94d47ec8631c273a6df62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111e6833b01682c6b7cf152d33ed7515') in 0.076560 seconds
-  Import took 0.112527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-CarChrome1.mat
-  artifactKey: Guid(79b4d20b7e2c841c9bbf7ec9164eab43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-CarChrome1.mat using Guid(79b4d20b7e2c841c9bbf7ec9164eab43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2e17cda70e70b72a176ef49bf052ed') in 0.085524 seconds
-  Import took 0.107294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Lights2.mat
-  artifactKey: Guid(fe69fbebd018247d4a0054d1264bcfdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Lights2.mat using Guid(fe69fbebd018247d4a0054d1264bcfdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd3ef80eb4373538639ab0e4504f92c') in 0.057482 seconds
-  Import took 0.073676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Grape.mat
-  artifactKey: Guid(40cfe4beac6d04876b6dc2d2c2c0c0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Grape.mat using Guid(40cfe4beac6d04876b6dc2d2c2c0c0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b3ce616f5115f13d49a160653dcaed') in 0.124078 seconds
-  Import took 0.131728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/FlatKit/PresetsShared/Materials/MatteBronze__StylSurf_Single_Spec_Rim_HGrad.mat
-  artifactKey: Guid(d7887f8002a6f4adb86573608f56b5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/PresetsShared/Materials/MatteBronze__StylSurf_Single_Spec_Rim_HGrad.mat using Guid(d7887f8002a6f4adb86573608f56b5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a381a8a2dc3bc2c9055117dd46b89b06') in 0.059693 seconds
-  Import took 0.083973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Grenade.mat
-  artifactKey: Guid(7ffff4954cf1d4e6dbc20b4ebd9a03cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Grenade.mat using Guid(7ffff4954cf1d4e6dbc20b4ebd9a03cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a654cc5cd525e2acb91399a42f8ce5b') in 0.121082 seconds
-  Import took 0.175912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Vase.mat
-  artifactKey: Guid(58abd1fcfb9e84376a6e41a4ae821648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Vase.mat using Guid(58abd1fcfb9e84376a6e41a4ae821648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172461bd8392ece9baa577094a5ba8c2') in 0.052786 seconds
-  Import took 0.076031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000432 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-9.mat
-  artifactKey: Guid(42b481ef7656046248b2cf4735566a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-9.mat using Guid(42b481ef7656046248b2cf4735566a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9e81c6487ce74204f1b81ad1e01663') in 0.040644 seconds
-  Import took 0.050360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/EffectTexturesAndPrefabs/Materials/Fire_A.mat
-  artifactKey: Guid(b465c451c01c117458142e3e46fe035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EffectTexturesAndPrefabs/Materials/Fire_A.mat using Guid(b465c451c01c117458142e3e46fe035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd696cc3e72042db688146bd43d88b78') in 0.109379 seconds
-  Import took 0.133097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Cherries.mat
-  artifactKey: Guid(f9712c421eb55461cb291f5a897bbfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Cherries.mat using Guid(f9712c421eb55461cb291f5a897bbfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0779010be84ab80ce0cba4dd3531ce1') in 0.087597 seconds
-  Import took 0.098729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarPlates_Rims.mat
-  artifactKey: Guid(4e2e8768399254e6397a00395f50345a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarPlates_Rims.mat using Guid(4e2e8768399254e6397a00395f50345a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18112c8ed05fde7d3f67503cee9d7dd') in 0.058023 seconds
-  Import took 0.069044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Skybox.mat
-  artifactKey: Guid(f56986ded5ce344b0a2c9b1606d5d0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Skybox.mat using Guid(f56986ded5ce344b0a2c9b1606d5d0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915709c0db51ce43482640885401c737') in 0.062476 seconds
-  Import took 0.095773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-GrassBunch.mat
-  artifactKey: Guid(f83dcebc239614c2689adf1e8fdbc6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-GrassBunch.mat using Guid(f83dcebc239614c2689adf1e8fdbc6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25a9fce8649ecb3de5e0cb276423c76') in 0.104471 seconds
-  Import took 0.138026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarChrome2.mat
-  artifactKey: Guid(a3db3b79b2f8247a5841bba15cfe0736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarChrome2.mat using Guid(a3db3b79b2f8247a5841bba15cfe0736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfdd53875206617901b9ecf4be5cf61') in 0.045246 seconds
-  Import took 0.080664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-7.mat
-  artifactKey: Guid(be8592524361449788c114916a0f884d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-7.mat using Guid(be8592524361449788c114916a0f884d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb53fed2e07949c55438d16dd6ad69d') in 0.062332 seconds
-  Import took 0.073164 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/FlatKit/PresetsShared/Materials/LacquerBlack__StylSurf_Single_ExCel_Spec_Rim.mat
-  artifactKey: Guid(e81cc5197e16f4d5ca99bad79723f8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/PresetsShared/Materials/LacquerBlack__StylSurf_Single_ExCel_Spec_Rim.mat using Guid(e81cc5197e16f4d5ca99bad79723f8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd203a3126551f552c597104aa0499b97') in 0.074447 seconds
-  Import took 0.082370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Stone1.mat
-  artifactKey: Guid(bb80ddc600c0f4c67999676c62f22f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Stone1.mat using Guid(bb80ddc600c0f4c67999676c62f22f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34338b9c456e047a005d50d93f3572f') in 0.061042 seconds
-  Import took 0.071949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000456 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Apple.mat
-  artifactKey: Guid(3b297fb5a94834d16a6292800e1f1e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Apple.mat using Guid(3b297fb5a94834d16a6292800e1f1e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe6e542847f26b917e1aee536ef8dee') in 0.052107 seconds
-  Import took 0.063142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Room/Room-Materials/Color4.mat
-  artifactKey: Guid(8194432e2f578488a9f4419a544346d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Room/Room-Materials/Color4.mat using Guid(8194432e2f578488a9f4419a544346d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34913e0fc1f9e6c05d3ae3420fe9164a') in 0.076209 seconds
-  Import took 0.085098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Leaves.mat
-  artifactKey: Guid(1f3e1a656407a4c6a930f9d596cf05cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Leaves.mat using Guid(1f3e1a656407a4c6a930f9d596cf05cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db52969547de81b6b3939e20c96145e9') in 0.089875 seconds
-  Import took 0.098685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Plane2.mat
-  artifactKey: Guid(c96662bcc1f4e4b049fe02a202094748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Plane2.mat using Guid(c96662bcc1f4e4b049fe02a202094748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04258007a6443aab1d7049712c640248') in 0.040538 seconds
-  Import took 0.050190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-02.mat
-  artifactKey: Guid(9ed267afa8ac44ede8f6af968e2c90c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-02.mat using Guid(9ed267afa8ac44ede8f6af968e2c90c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e66314f46eb4aabf0c2b79adaa04f8') in 0.062897 seconds
-  Import took 0.071223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-3.mat
-  artifactKey: Guid(93506af72f5ac4d61b10187ddaafcd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-3.mat using Guid(93506af72f5ac4d61b10187ddaafcd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfceb974dfd4d8016313b3d24c80c4b') in 0.074496 seconds
-  Import took 0.096259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Skybox3.mat
-  artifactKey: Guid(14497830682194498bb140b4a1bcda95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Skybox3.mat using Guid(14497830682194498bb140b4a1bcda95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9324f1b1bdfb34913b9bc4a1752b068') in 0.052108 seconds
-  Import took 0.102385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Stalks.mat
-  artifactKey: Guid(e82d9192ebf36438293c8062b7ea51b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Stalks.mat using Guid(e82d9192ebf36438293c8062b7ea51b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06f1277f67fb1ae2c699fd0ed3e107e') in 0.081603 seconds
-  Import took 0.116389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Skybox1.mat
-  artifactKey: Guid(c5e2dc6dc922741828369b48fe58f5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Skybox1.mat using Guid(c5e2dc6dc922741828369b48fe58f5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc15e7c9bcd13faab62442f373b4a00') in 0.086910 seconds
-  Import took 0.092543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Leaves.mat
-  artifactKey: Guid(ad063a09dcd6c4bc2a4f937404dd5fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Leaves.mat using Guid(ad063a09dcd6c4bc2a4f937404dd5fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a918d19c06d7cef62d53c687c8682f1') in 0.053947 seconds
-  Import took 0.061273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000548 seconds.
-  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Trunk2.mat
-  artifactKey: Guid(9aaf1d28ae17b458cb0a9a010d1e1b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Trunk2.mat using Guid(9aaf1d28ae17b458cb0a9a010d1e1b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3388541aad56e89e15d32cf8e9b2636') in 0.044121 seconds
-  Import took 0.068958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Plane.mat
-  artifactKey: Guid(56ac6a612a2e94edd94c3bdb140c66bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/4-Plane.mat using Guid(56ac6a612a2e94edd94c3bdb140c66bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4237e7babdaab2cb874553037f708d46') in 0.089973 seconds
-  Import took 0.106327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Apple.mat
-  artifactKey: Guid(3f92c4853a96545298d96bceb96a46c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Apple.mat using Guid(3f92c4853a96545298d96bceb96a46c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf755e66c41d6017aeb0cc510e3a5721') in 0.077576 seconds
-  Import took 0.111163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-1.mat
-  artifactKey: Guid(c42e8b42a8bfa45fc8fd3620edb2b31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-1.mat using Guid(c42e8b42a8bfa45fc8fd3620edb2b31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdddfd19bb62aaeda2f732055b4e15bd') in 0.055966 seconds
-  Import took 0.071562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000530 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Strawberry.mat
-  artifactKey: Guid(815c5d1a139f541d7adc673766648f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Strawberry.mat using Guid(815c5d1a139f541d7adc673766648f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a64779ba6689462f399cd4329f06aec') in 0.045098 seconds
-  Import took 0.055011 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006544 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.842 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.4 MB.
-System memory in use after: 207.8 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3258.
-Total: 11.031300 ms (FindLiveObjects: 3.032000 ms CreateObjectMapping: 0.322400 ms MarkObjects: 5.844800 ms  DeleteObjects: 1.807500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002063 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.201 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.4 MB.
-System memory in use after: 207.8 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3261.
-Total: 5.115100 ms (FindLiveObjects: 0.440600 ms CreateObjectMapping: 0.286000 ms MarkObjects: 3.127700 ms  DeleteObjects: 1.258500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002439 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.363 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.4 MB.
-System memory in use after: 207.8 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3264.
-Total: 6.861500 ms (FindLiveObjects: 1.565800 ms CreateObjectMapping: 0.337300 ms MarkObjects: 3.685200 ms  DeleteObjects: 1.270900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001947 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.394 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.4 MB.
-System memory in use after: 207.8 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3267.
-Total: 6.052800 ms (FindLiveObjects: 0.492600 ms CreateObjectMapping: 0.183800 ms MarkObjects: 3.732100 ms  DeleteObjects: 1.642100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002026 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.431 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.5 MB.
-System memory in use after: 207.9 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3270.
-Total: 6.457000 ms (FindLiveObjects: 0.521800 ms CreateObjectMapping: 0.219700 ms MarkObjects: 3.827500 ms  DeleteObjects: 1.885200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003214 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.556 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.5 MB.
-System memory in use after: 207.9 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3273.
-Total: 4.924100 ms (FindLiveObjects: 0.539100 ms CreateObjectMapping: 0.185300 ms MarkObjects: 2.775400 ms  DeleteObjects: 1.421900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 588.845403 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(c8689b11cb7a33a429267a1b00a43996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(c8689b11cb7a33a429267a1b00a43996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fb9f347721df7bcaa970c4fd6f8ee0') in 1.091054 seconds
-  Import took 1.108920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.910699 seconds.
-  path: Assets/Prefabs/Flying Top.prefab
-  artifactKey: Guid(283678bc731b8734f95c4d19436331d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Flying Top.prefab using Guid(283678bc731b8734f95c4d19436331d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09402b544e05eeedd3931432d468aae2') in 0.356982 seconds
-  Import took 0.367530 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002010 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.311 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.7 MB.
-System memory in use after: 208.1 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3313.
-Total: 4.464400 ms (FindLiveObjects: 0.321300 ms CreateObjectMapping: 0.141000 ms MarkObjects: 2.663900 ms  DeleteObjects: 1.335900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002906 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.392 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.7 MB.
-System memory in use after: 208.1 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3316.
-Total: 4.202200 ms (FindLiveObjects: 0.370400 ms CreateObjectMapping: 0.162400 ms MarkObjects: 2.418000 ms  DeleteObjects: 1.249900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003233 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -2066,368 +519,11 @@ Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Ren
 Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.7 MB.
-System memory in use after: 208.1 MB.
+System memory in use before: 209.0 MB.
+System memory in use after: 207.4 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3319.
-Total: 5.582300 ms (FindLiveObjects: 0.468000 ms CreateObjectMapping: 0.283100 ms MarkObjects: 3.506400 ms  DeleteObjects: 1.322200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.1 MB.
-System memory in use after: 160.5 MB.
-
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3319.
-Total: 5.842700 ms (FindLiveObjects: 0.653300 ms CreateObjectMapping: 0.327700 ms MarkObjects: 3.432500 ms  DeleteObjects: 1.425100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 1.590449 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.641 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.7 MB.
-System memory in use after: 208.1 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3322.
-Total: 4.990800 ms (FindLiveObjects: 0.366000 ms CreateObjectMapping: 0.156700 ms MarkObjects: 3.193800 ms  DeleteObjects: 1.272600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 3229.420455 seconds.
-  path: Assets/Animator/TaptoContinueText.controller
-  artifactKey: Guid(a9a75c04598eb604bb60040ace1340c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animator/TaptoContinueText.controller using Guid(a9a75c04598eb604bb60040ace1340c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273eea620fc4c41cbe2c01274f8ab4f8') in 0.182374 seconds
-  Import took 0.218694 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005323 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.405 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.97 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.7 MB.
-System memory in use after: 208.1 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3325.
-Total: 16.181400 ms (FindLiveObjects: 6.224200 ms CreateObjectMapping: 1.389800 ms MarkObjects: 6.349700 ms  DeleteObjects: 2.214200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002023 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.920 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.7 MB.
-System memory in use after: 208.1 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3328.
-Total: 5.225200 ms (FindLiveObjects: 0.432600 ms CreateObjectMapping: 0.156600 ms MarkObjects: 3.260200 ms  DeleteObjects: 1.373500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 2042.354936 seconds.
-  path: Assets/Animations/CharacterFBX@Belly Dance.fbx
-  artifactKey: Guid(320504c56e1f5bd4ea6b6de04265b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/CharacterFBX@Belly Dance.fbx using Guid(320504c56e1f5bd4ea6b6de04265b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82124a436e878f0ad5872da8e08811be') in 1.793755 seconds
-  Import took 1.848246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.614472 seconds.
-  path: Assets/Animations/CharacterFBX@Belly Dance.fbx
-  artifactKey: Guid(320504c56e1f5bd4ea6b6de04265b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/CharacterFBX@Belly Dance.fbx using Guid(320504c56e1f5bd4ea6b6de04265b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c361926ebf0190512cf614f078da037d') in 0.065368 seconds
-  Import took 0.127956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.766679 seconds.
-  path: Assets/Animations/CharacterFBX@Falling Idle.fbx
-  artifactKey: Guid(23283f236e460e947928a774b54ef8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/CharacterFBX@Falling Idle.fbx using Guid(23283f236e460e947928a774b54ef8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00208ff36dda43d17700cbc1c071073') in 0.138124 seconds
-  Import took 0.169174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.781865 seconds.
-  path: Assets/Animations/CharacterFBX@Jumping 1.fbx
-  artifactKey: Guid(24c2c43ea0849e34095fadbd1b1cde21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/CharacterFBX@Jumping 1.fbx using Guid(24c2c43ea0849e34095fadbd1b1cde21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e40a67f77a4cff579e9208bbf48edf0') in 0.128279 seconds
-  Import took 0.152355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.843250 seconds.
-  path: Assets/Animations/CharacterFBX@Running Forward Flip.fbx
-  artifactKey: Guid(466497038d6ac8042a197616ad2657b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/CharacterFBX@Running Forward Flip.fbx using Guid(466497038d6ac8042a197616ad2657b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac4d9fc158fdc7672123035486eb251') in 0.113092 seconds
-  Import took 0.160774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.042999 seconds.
-  path: Assets/Animations/CharacterFBX@Running Forward Flip.fbx
-  artifactKey: Guid(466497038d6ac8042a197616ad2657b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/CharacterFBX@Running Forward Flip.fbx using Guid(466497038d6ac8042a197616ad2657b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac4d9fc158fdc7672123035486eb251') in 0.064422 seconds
-  Import took 0.091085 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001989 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.361 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.9 MB.
-System memory in use after: 208.2 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3367.
-Total: 4.993200 ms (FindLiveObjects: 0.483500 ms CreateObjectMapping: 0.284100 ms MarkObjects: 2.900400 ms  DeleteObjects: 1.322900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001950 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.604 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.9 MB.
-System memory in use after: 208.3 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3370.
-Total: 10.275800 ms (FindLiveObjects: 0.513100 ms CreateObjectMapping: 0.448800 ms MarkObjects: 3.911700 ms  DeleteObjects: 5.399300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 54.964376 seconds.
-  path: Assets/Animations/CharacterFBX@Jumping 1.fbx
-  artifactKey: Guid(24c2c43ea0849e34095fadbd1b1cde21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/CharacterFBX@Jumping 1.fbx using Guid(24c2c43ea0849e34095fadbd1b1cde21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd4e4d32a7bd39179e38921a18de5ad') in 0.317571 seconds
-  Import took 0.353339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Animations/CharacterFBX@Running Forward Flip.fbx
-  artifactKey: Guid(466497038d6ac8042a197616ad2657b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/CharacterFBX@Running Forward Flip.fbx using Guid(466497038d6ac8042a197616ad2657b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc31b90ae92816a28f04331dd242f512') in 0.063581 seconds
-  Import took 0.077262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.325553 seconds.
-  path: Assets/Animations/CharacterFBX@Falling Idle.fbx
-  artifactKey: Guid(23283f236e460e947928a774b54ef8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/CharacterFBX@Falling Idle.fbx using Guid(23283f236e460e947928a774b54ef8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef971bb399ecef8504702e07afd42fc') in 0.070307 seconds
-  Import took 0.096643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.830027 seconds.
-  path: Assets/Animations/CharacterFBX@Belly Dance.fbx
-  artifactKey: Guid(320504c56e1f5bd4ea6b6de04265b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/CharacterFBX@Belly Dance.fbx using Guid(320504c56e1f5bd4ea6b6de04265b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc67c508f97073d6c7ab6e6e69d0afbf') in 0.067094 seconds
-  Import took 0.247289 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002276 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.386 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 210.1 MB.
-System memory in use after: 208.5 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3409.
-Total: 4.538300 ms (FindLiveObjects: 0.336500 ms CreateObjectMapping: 0.140500 ms MarkObjects: 2.754700 ms  DeleteObjects: 1.304900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 41.204925 seconds.
-  path: Assets/Animations/CharacterFBX@Running Forward Flip.fbx
-  artifactKey: Guid(466497038d6ac8042a197616ad2657b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/CharacterFBX@Running Forward Flip.fbx using Guid(466497038d6ac8042a197616ad2657b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf253378c0f61f96f2b3d4e5f2540a8') in 0.346197 seconds
-  Import took 0.372790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.061987 seconds.
-  path: Assets/Animations/CharacterFBX@Jumping 1.fbx
-  artifactKey: Guid(24c2c43ea0849e34095fadbd1b1cde21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/CharacterFBX@Jumping 1.fbx using Guid(24c2c43ea0849e34095fadbd1b1cde21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0ae947236ee24f40fd9eb61931d6b1') in 0.061476 seconds
-  Import took 0.071141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010358 seconds.
-  path: Assets/Animations/CharacterFBX@Jumping 1.fbx
-  artifactKey: Guid(24c2c43ea0849e34095fadbd1b1cde21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/CharacterFBX@Jumping 1.fbx using Guid(24c2c43ea0849e34095fadbd1b1cde21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0ae947236ee24f40fd9eb61931d6b1') in 0.082684 seconds
-  Import took 0.090962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.899213 seconds.
-  path: Assets/Animations/CharacterFBX@Falling Idle.fbx
-  artifactKey: Guid(23283f236e460e947928a774b54ef8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/CharacterFBX@Falling Idle.fbx using Guid(23283f236e460e947928a774b54ef8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6255d7f4b1e5eba1314dbfccc2eeeeec') in 0.045785 seconds
-  Import took 0.054540 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001974 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.093 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 210.2 MB.
-System memory in use after: 208.6 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3448.
-Total: 7.366400 ms (FindLiveObjects: 0.571700 ms CreateObjectMapping: 0.208100 ms MarkObjects: 4.767600 ms  DeleteObjects: 1.815900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003519 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.127 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 210.3 MB.
-System memory in use after: 208.7 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3451.
-Total: 13.178400 ms (FindLiveObjects: 2.735600 ms CreateObjectMapping: 0.857100 ms MarkObjects: 5.863700 ms  DeleteObjects: 3.719700 ms)
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3247.
+Total: 8.164900 ms (FindLiveObjects: 0.567600 ms CreateObjectMapping: 0.226600 ms MarkObjects: 5.466800 ms  DeleteObjects: 1.901600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000

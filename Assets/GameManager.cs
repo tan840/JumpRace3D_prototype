@@ -23,6 +23,8 @@ public class GameManager : MonoBehaviour
     public Slider slider;
     public float maxDistance;
     float distance;
+    //progressbar text
+    [SerializeField]TMP_Text[] progressBarlevelText;
 
     public enum GameState { Menu, Started, Dead, finish }
     public GameState state;
@@ -58,6 +60,16 @@ public class GameManager : MonoBehaviour
         state = GameState.Menu;
         rb = player.transform.GetComponent<Rigidbody>();
         anim = player.transform.GetChild(0).GetComponent<Animator>();
+        LevelTextTopChange();
+        foreach (ParticleSystem item in playerParticle)
+        {
+            item.Stop();
+        }
+    }
+    public void LevelTextTopChange()
+    {
+        progressBarlevelText[0].text = (1 + levelManager.CurrentLevel).ToString();
+        progressBarlevelText[1].text = (2 + levelManager.CurrentLevel).ToString();
     }
 
     public void ResetLevel()
@@ -77,6 +89,7 @@ public class GameManager : MonoBehaviour
             vCam.LookAt = player;
             vCam.Follow = player;
         }
+        LevelTextTopChange();
         
     }
    
@@ -99,7 +112,7 @@ public class GameManager : MonoBehaviour
             item.Play();
 
         }
-        Invoke("ParticleDeactive", 0.75f);
+        Invoke("ParticleDeactive", 2f);
         
     }
     void ParticleDeactive()
